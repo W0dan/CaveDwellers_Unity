@@ -11,9 +11,12 @@ public class Player : Entity
     public Sprite LeftSprite;
     public Sprite RightSprite;
 
+    public Sprite DeadSprite;
+
     public SpriteRenderer SpriteRenderer;
 
     private Direction _direction;
+    private bool _died;
 
     void Start()
     {
@@ -21,7 +24,13 @@ public class Player : Entity
 
     void Update()
     {
+        if (_died)
+        {
+            return;
+        }
+
         var playerTransform = GetComponent<Rigidbody2D>().transform;
+
         var directionVector = GetCurrentDirectionVector(_direction);
 
         if (Input.GetKey(KeyCode.UpArrow))
@@ -79,7 +88,7 @@ public class Player : Entity
         }
     }
 
-    private Vector3 GetCurrentDirectionVector(Direction direction)
+    private static Vector3 GetCurrentDirectionVector(Direction direction)
     {
         switch (direction)
         {
@@ -120,6 +129,7 @@ public class Player : Entity
 
     public void Die()
     {
-        print("I' ve been killed");
+        _died = true;
+        SpriteRenderer.sprite = DeadSprite;
     }
 }

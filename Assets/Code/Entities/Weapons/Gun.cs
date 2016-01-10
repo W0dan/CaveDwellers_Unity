@@ -1,11 +1,21 @@
-﻿using UnityEngine;
+﻿using System.Diagnostics;
+using Assets.Code.Entities.BadGuys;
+using UnityEngine;
 
 public class Gun : MonoBehaviour
 {
     public GameObject Explosion;
+    private Stopwatch _lastShot = null;
 
     public void Shoot(Vector3 position, Vector3 direction)
     {
+        if (!Ready())
+        {
+            return;
+        }
+
+        _lastShot = Stopwatch.StartNew();
+
         var ray = new Ray2D(position, direction);
 
         const float shotDistance = 20;
@@ -23,6 +33,21 @@ public class Gun : MonoBehaviour
         var hitObject = hit.collider.attachedRigidbody.gameObject;
 
         if (hitObject.tag == "Badguy")
-            Destroy(hitObject);
+        {
+            var badguy = hitObject.GetComponent<Alien>(); ;
+
+            badguy.TakeHealth(10);
+
+            if (badguy.Health <= 0) Destroy(hitObject);
+        }
+    }
+
+    private bool Ready()
+    {
+        if (_lastShot == null) return true;
+
+        if (_lastShot.ElapsedMilliseconds > 100) return true;
+
+        return false;
     }
 }

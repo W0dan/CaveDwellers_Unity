@@ -1,28 +1,25 @@
-﻿using System.Collections;
+﻿using System;
 using UnityEngine;
 
 namespace Assets.Code.Entities.BadGuys
 {
-    public class Patrol : Entity
+    public class PatrolMoveBehaviour : MoveBehaviour
     {
-        private Entity _target;
-        //public int Distance;
-
-        private bool _canAttack;
-
+        private readonly Entity _entity;
         private Vector3 _currentDirection;
         private float _distanceTraveledInThisDirection;
 
-        void Start()
+        public PatrolMoveBehaviour(Entity entity)
         {
             _currentDirection = Vector3.up;
             _distanceTraveledInThisDirection = 0;
+
+            _entity = entity;
         }
 
-        void Update()
+        public override void Move()
         {
-            _canAttack = true;
-            var attackerTransform = GetComponent<Rigidbody2D>().transform;
+            var attackerTransform = _entity.GetComponent<Rigidbody2D>().transform;
 
             if (_currentDirection == Vector3.up)
             {
@@ -79,57 +76,12 @@ namespace Assets.Code.Entities.BadGuys
                     _currentDirection = Vector3.up;
                 }
             }
-
-            //if (_target == null)
-            //{
-            //    var targetGameObject = GameObject.FindGameObjectWithTag("Player");
-            //    _target = targetGameObject.GetComponent<Entity>();
-            //}
-
-            //var targetTransform = _target.GetComponent<Rigidbody2D>().transform;
-            //var attackerTransform = GetComponent<Rigidbody2D>().transform;
-
-            //if (targetTransform.position.y > (attackerTransform.position.y + Distance))
-            //{
-            //    attackerTransform.position += Vector3.up * DistanceToMove();
-            //}
-            //if (targetTransform.position.y < (attackerTransform.position.y - Distance))
-            //{
-            //    attackerTransform.position += Vector3.down * DistanceToMove();
-            //}
-            //if (targetTransform.position.x > (attackerTransform.position.x + Distance))
-            //{
-            //    attackerTransform.position += Vector3.right * DistanceToMove();
-            //}
-            //if (targetTransform.position.x < (attackerTransform.position.x - Distance))
-            //{
-            //    attackerTransform.position += Vector3.left * DistanceToMove();
-            //}
-
-            //if (Vector2.Distance(attackerTransform.position, targetTransform.position) <= Distance && _canAttack)
-            //{
-            //    Attack();
-            //    StartCoroutine(WaitForAttack());
-            //}
         }
 
-        public void Die()
+
+        protected float DistanceToMove()
         {
-
-        }
-
-        public void Attack()
-        {
-            var take = Random.Range(1, 20);
-
-            _target.TakeHealth(take);
-        }
-
-        private IEnumerator WaitForAttack()
-        {
-            _canAttack = false;
-            yield return new WaitForSeconds(2);
-            _canAttack = true;
+            return (float)Math.Round(_entity.Speed * Time.deltaTime, 2);
         }
     }
 }

@@ -4,16 +4,7 @@ using UnityEngine;
 public abstract class Entity : MonoBehaviour
 {
     public float Speed;
-
     public int Health;
-
-	void Start () {
-	
-	}
-	
-	void Update () {
-	
-	}
 
     protected float DistanceToMove()
     {
