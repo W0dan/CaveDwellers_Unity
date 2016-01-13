@@ -3,6 +3,8 @@ using UnityEngine;
 
 public abstract class Entity : MonoBehaviour
 {
+    public event Action<Entity> Died = entity => {};
+
     public float Speed;
     public int Health;
 
@@ -14,5 +16,10 @@ public abstract class Entity : MonoBehaviour
     public void TakeHealth(int damage)
     {
         Health -= damage;
+
+        if (Health <= 0)
+        {
+            Died(this);
+        }
     }
 }

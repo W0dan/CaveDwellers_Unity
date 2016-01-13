@@ -36,6 +36,8 @@ namespace Assets.Code.Entities.BadGuys
 
         private Vector3 GetNewDirection()
         {
+            //return Vector3.up;
+
             var rnd = Random.Range(1, 5);
 
             switch (rnd)

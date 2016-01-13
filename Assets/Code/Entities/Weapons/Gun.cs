@@ -29,6 +29,12 @@ public class Gun : MonoBehaviour
 
         Destroy(explosion, 0.03f);
 
+        if (hit.collider.attachedRigidbody == null)
+        {
+            //hit nothing of importance
+            return;
+        }
+
         //but what did we hit ??
         var hitObject = hit.collider.attachedRigidbody.gameObject;
 

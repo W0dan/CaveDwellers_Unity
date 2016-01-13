@@ -51,29 +51,11 @@
     <Reference Include="UnityEngine">
       <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.Advertisements">
-      <HintPath>Library\UnityAssemblies\UnityEngine.Advertisements.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Networking">
       <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Analytics">
-      <HintPath>Library\UnityAssemblies\UnityEngine.Analytics.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Advertisements">
-      <HintPath>Library\UnityAssemblies\UnityEngine.Advertisements.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Analytics">
-      <HintPath>Library\UnityAssemblies\UnityEngine.Analytics.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Networking">
-      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor">
       <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
@@ -87,6 +69,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Code\Camera\PixelPerfect.cs" />
+    <Compile Include="Assets\Code\Common\ColorExtensions.cs" />
     <Compile Include="Assets\Code\Common\Direction.cs" />
     <Compile Include="Assets\Code\Entities\BadGuys\Alien.cs" />
     <Compile Include="Assets\Code\Entities\BadGuys\MeleeAttackBehaviour.cs" />
@@ -96,7 +79,7 @@
     <Compile Include="Assets\Code\Entities\Entity.cs" />
     <Compile Include="Assets\Code\Entities\Player\Player.cs" />
     <Compile Include="Assets\Code\Entities\Weapons\Gun.cs" />
-    <Compile Include="Assets\Code\Levels\Level.cs" />
+    <Compile Include="Assets\Code\World.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>
