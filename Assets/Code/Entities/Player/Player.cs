@@ -62,7 +62,7 @@ public class Player : Entity
 
         if (Input.GetKey(KeyCode.Space))
         {
-            Gun.Shoot(playerTransform.position+directionVector, directionVector);
+            Gun.Shoot(playerTransform.position+(directionVector/2), directionVector);
         }
 
         if (Health <= 0)

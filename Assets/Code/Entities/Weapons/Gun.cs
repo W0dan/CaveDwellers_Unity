@@ -5,6 +5,7 @@ using UnityEngine;
 public class Gun : MonoBehaviour
 {
     public GameObject Explosion;
+    public GameObject Pang;
     private Stopwatch _lastShot = null;
 
     public void Shoot(Vector3 position, Vector3 direction)
@@ -15,6 +16,10 @@ public class Gun : MonoBehaviour
         }
 
         _lastShot = Stopwatch.StartNew();
+
+        var pang = Instantiate(Pang, (Vector2)position, Quaternion.identity);
+
+        Destroy(pang, 0.02f);
 
         var ray = new Ray2D(position, direction);
 
