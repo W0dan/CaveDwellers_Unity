@@ -72,6 +72,7 @@
     <Compile Include="Assets\Code\Common\ColorExtensions.cs" />
     <Compile Include="Assets\Code\Common\Direction.cs" />
     <Compile Include="Assets\Code\Entities\BadGuys\Alien.cs" />
+    <Compile Include="Assets\Code\Entities\BadGuys\BigGreenMonster.cs" />
     <Compile Include="Assets\Code\Entities\BadGuys\MeleeAttackBehaviour.cs" />
     <Compile Include="Assets\Code\Entities\BadGuys\MoveBehaviour.cs" />
     <Compile Include="Assets\Code\Entities\BadGuys\PatrolMoveBehaviour.cs" />

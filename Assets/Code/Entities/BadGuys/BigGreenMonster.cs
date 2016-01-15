@@ -1,13 +1,13 @@
 ﻿namespace Assets.Code.Entities.BadGuys
 {
-    public class Alien : Entity
+    public class BigGreenMonster : Entity
     {
         private MeleeAttackBehaviour _attackBehaviour;
         private MoveBehaviour _moveBehaviour;
 
         void Start()
         {
-            _attackBehaviour = new MeleeAttackBehaviour(this, 5, 10, 0.2f, 1);
+            _attackBehaviour = new MeleeAttackBehaviour(this, 15, 40, 0.2f, 2);
             _moveBehaviour = new RandomMoveBehaviour(this);
         }
 

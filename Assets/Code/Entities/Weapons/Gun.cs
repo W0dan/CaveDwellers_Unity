@@ -8,8 +8,10 @@ public class Gun : MonoBehaviour
     public GameObject Pang;
     private Stopwatch _lastShot = null;
 
-    public void Shoot(Vector3 position, Vector3 direction)
+    public void Shoot(Vector3 playerPosition, Vector3 direction)
     {
+        Vector2 gunfireOrigin = playerPosition + (direction / 2);
+
         if (!Ready())
         {
             return;
@@ -17,11 +19,11 @@ public class Gun : MonoBehaviour
 
         _lastShot = Stopwatch.StartNew();
 
-        var pang = Instantiate(Pang, (Vector2)position, Quaternion.identity);
+        var pang = Instantiate(Pang, gunfireOrigin, Quaternion.identity);
 
         Destroy(pang, 0.02f);
 
-        var ray = new Ray2D(position, direction);
+        var ray = new Ray2D(gunfireOrigin, direction);
 
         const float shotDistance = 20;
 
@@ -45,7 +47,7 @@ public class Gun : MonoBehaviour
 
         if (hitObject.tag == "Badguy")
         {
-            var badguy = hitObject.GetComponent<Alien>(); ;
+            var badguy = hitObject.GetComponent<Entity>();
 
             badguy.TakeHealth(10);
 

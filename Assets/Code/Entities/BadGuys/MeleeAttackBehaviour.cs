@@ -13,9 +13,11 @@ namespace Assets.Code.Entities.BadGuys
         private readonly float _rechargeTime;
         private bool _canAttack;
         private Entity _target;
+        private readonly int _range;
 
-        public MeleeAttackBehaviour(Entity attacker, int minDamage, int maxDamage, float rechargeTime)
+        public MeleeAttackBehaviour(Entity attacker, int minDamage, int maxDamage, float rechargeTime, int range)
         {
+            _range = range;
             _attacker = attacker;
             _minDamage = minDamage;
             _maxDamage = maxDamage;
@@ -33,7 +35,7 @@ namespace Assets.Code.Entities.BadGuys
             }
 
             var distance = Vector2.Distance(_attacker.transform.position, _target.transform.position);
-            if (distance <= 1 && _canAttack)
+            if (distance <= _range && _canAttack)
             {
                 Attack(_target);
                 _attacker.StartCoroutine(WaitForAttack());

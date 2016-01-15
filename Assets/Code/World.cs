@@ -10,7 +10,8 @@ public class World : MonoBehaviour
     private readonly Color _floorColor = Colors.FromArgb(255, 255, 0, 0);
     private readonly Color _wallColor = Colors.FromArgb(255, 0, 0, 255);
     private readonly Color _spawnPointColor = Colors.FromArgb(255, 0, 0, 0);
-    private readonly Color _badGuyColor = Colors.FromArgb(255, 255, 255, 0);
+    private readonly Color _badGuy1Color = Colors.FromArgb(255, 255, 255, 0);
+    private readonly Color _badGuy2Color = Colors.FromArgb(255, 255, 255, 1);
     private readonly Color _keystoneColor = Colors.FromArgb(255, 0, 0, 254);
 
     public List<Texture2D> LevelTextures;
@@ -20,7 +21,8 @@ public class World : MonoBehaviour
 
     public Player Player;
 
-    public Transform BadGuy;
+    public Transform BadGuy1;
+    public Transform BadGuy2;
 
     private int _numberOfBadguysLeft = 0;
     private Vector3 _keystoneLocation;
@@ -72,9 +74,18 @@ public class World : MonoBehaviour
             {
                 var currentTileColor = tileColors[x + y * width];
 
-                if (currentTileColor == _badGuyColor)
+                if (currentTileColor.IsEqualTo(_badGuy1Color))
                 {
-                    var bgClone = (Transform)Instantiate(BadGuy, new Vector3(x + xOffset, y), Quaternion.identity);
+                    var bgClone = (Transform)Instantiate(BadGuy1, new Vector3(x + xOffset, y), Quaternion.identity);
+                    var badguy = bgClone.GetComponent<Entity>();
+
+                    badguy.Died += BadguyDied;
+
+                    _numberOfBadguysLeft++;
+                }
+                else if (currentTileColor.IsEqualTo(_badGuy2Color))
+                {
+                    var bgClone = (Transform)Instantiate(BadGuy2, new Vector3(x + xOffset, y), Quaternion.identity);
                     var badguy = bgClone.GetComponent<Entity>();
 
                     badguy.Died += BadguyDied;
@@ -93,7 +104,8 @@ public class World : MonoBehaviour
 
                 if (currentTileColor.IsEqualTo(_floorColor)
                     || currentTileColor.IsEqualTo(_spawnPointColor)
-                    || currentTileColor.IsEqualTo(_badGuyColor))
+                    || currentTileColor.IsEqualTo(_badGuy1Color)
+                    || currentTileColor.IsEqualTo(_badGuy2Color))
                 {
                     Instantiate(FloorTile, new Vector3(x + xOffset, y), Quaternion.identity);
                 }
