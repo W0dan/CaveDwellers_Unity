@@ -51,17 +51,11 @@
     <Reference Include="UnityEngine">
       <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.Advertisements">
-      <HintPath>Library\UnityAssemblies\UnityEngine.Advertisements.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Networking">
       <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Analytics">
-      <HintPath>Library\UnityAssemblies\UnityEngine.Analytics.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor">
       <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
@@ -87,6 +81,12 @@
     <Compile Include="Assets\Code\Entities\Player\Player.cs" />
     <Compile Include="Assets\Code\Entities\Weapons\Gun.cs" />
     <Compile Include="Assets\Code\World.cs" />
+    <Compile Include="Assets\Custom 2D Colliders\Scripts\ArcCollider2D.cs" />
+    <Compile Include="Assets\Custom 2D Colliders\Scripts\BezierCurveCollider2D.cs" />
+    <Compile Include="Assets\Custom 2D Colliders\Scripts\CapsuleCollider2D.cs" />
+    <Compile Include="Assets\Custom 2D Colliders\Scripts\EllipseCollider2D.cs" />
+    <Compile Include="Assets\Custom 2D Colliders\Scripts\RoundedBoxCollider2D.cs" />
+    <Compile Include="Assets\Custom 2D Colliders\Scripts\StarCollider2D.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>
