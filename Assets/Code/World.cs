@@ -1,6 +1,8 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 using Assets.Code.Common;
+using Assets.Code.Entities;
+using Assets.Code.Entities.Player;
 
 public class World : MonoBehaviour
 {

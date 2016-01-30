@@ -1,135 +1,141 @@
 ﻿using System;
 using Assets.Code.Common;
+using Assets.Code.Entities.Weapons;
 using UnityEngine;
 
-public class Player : Entity
+namespace Assets.Code.Entities.Player
 {
-    public Gun Gun;
-
-    public Sprite ForwardSprite;
-    public Sprite BackwardSprite;
-    public Sprite LeftSprite;
-    public Sprite RightSprite;
-
-    public Sprite DeadSprite;
-
-    public SpriteRenderer SpriteRenderer;
-
-    private Direction _direction;
-    private bool _died;
-
-    void Start()
+    public class Player : Entity
     {
-    }
+        public Gun Gun;
 
-    void Update()
-    {
-        if (_died)
+        public Sprite ForwardSprite;
+        public Sprite BackwardSprite;
+        public Sprite LeftSprite;
+        public Sprite RightSprite;
+
+        public Sprite DeadSprite;
+
+        public SpriteRenderer SpriteRenderer;
+
+        private Direction _direction;
+        private bool _died;
+
+        void Start()
         {
-            return;
         }
 
-        var playerTransform = GetComponent<Rigidbody2D>().transform;
+        void Update()
+        {
+            if (_died)
+            {
+                return;
+            }
 
-        var directionVector = GetCurrentDirectionVector(_direction);
+            var playerTransform = GetComponent<Rigidbody2D>().transform;
 
-        if (Input.GetKey(KeyCode.UpArrow))
-        {
-            _direction = Direction.Up;
-            directionVector = Vector3.up;
-            playerTransform.position += directionVector * DistanceToMove();
-        }
-        if (Input.GetKey(KeyCode.DownArrow))
-        {
-            _direction = Direction.Down;
-            directionVector = Vector3.down;
-            playerTransform.position += directionVector * DistanceToMove();
-        }
-        if (Input.GetKey(KeyCode.LeftArrow))
-        {
-            _direction = Direction.Left;
-            directionVector = Vector3.left;
-            playerTransform.position += directionVector * DistanceToMove();
-        }
-        if (Input.GetKey(KeyCode.RightArrow))
-        {
-            _direction = Direction.Right;
-            directionVector = Vector3.right;
-            playerTransform.position += directionVector * DistanceToMove();
+            var directionVector = GetCurrentDirectionVector(_direction);
+
+            if (Input.GetKey(KeyCode.UpArrow))
+            {
+                _direction = Direction.Up;
+                directionVector = Vector3.up;
+                playerTransform.position += directionVector * DistanceToMove();
+            }
+            if (Input.GetKey(KeyCode.DownArrow))
+            {
+                _direction = Direction.Down;
+                directionVector = Vector3.down;
+                playerTransform.position += directionVector * DistanceToMove();
+            }
+            if (Input.GetKey(KeyCode.LeftArrow))
+            {
+                _direction = Direction.Left;
+                directionVector = Vector3.left;
+                playerTransform.position += directionVector * DistanceToMove();
+            }
+            if (Input.GetKey(KeyCode.RightArrow))
+            {
+                _direction = Direction.Right;
+                directionVector = Vector3.right;
+                playerTransform.position += directionVector * DistanceToMove();
+            }
+
+            SpriteRenderer.sprite = GetSprite(_direction);
+
+            if (Input.GetKey(KeyCode.Space))
+            {
+                Gun.Shoot(playerTransform.position, directionVector);
+            }
+
+            if (Health <= 0)
+            {
+                Die();
+            }
+
+            //RenderHealth();
         }
 
-        SpriteRenderer.sprite = GetSprite(_direction);
-
-        if (Input.GetKey(KeyCode.Space))
+        private Sprite GetSprite(Direction direction)
         {
-            Gun.Shoot(playerTransform.position, directionVector);
+            switch (direction)
+            {
+                case Direction.Up:
+                    return ForwardSprite;
+                case Direction.Right:
+                    return RightSprite;
+                case Direction.Down:
+                    return BackwardSprite;
+                case Direction.Left:
+                    return LeftSprite;
+                default:
+                    throw new ArgumentOutOfRangeException("direction");
+            }
         }
 
-        if (Health <= 0)
+        private static Vector3 GetCurrentDirectionVector(Direction direction)
         {
-            Die();
+            switch (direction)
+            {
+                case Direction.Up:
+                    return Vector3.up;
+                case Direction.Right:
+                    return Vector3.right;
+                case Direction.Down:
+                    return Vector3.down;
+                case Direction.Left:
+                    return Vector3.left;
+                default:
+                    throw new ArgumentOutOfRangeException("direction");
+            }
         }
-    }
 
-    private Sprite GetSprite(Direction direction)
-    {
-        switch (direction)
+        protected Vector3 GetDirection()
         {
-            case Direction.Up:
-                return ForwardSprite;
-            case Direction.Right:
-                return RightSprite;
-            case Direction.Down:
-                return BackwardSprite;
-            case Direction.Left:
-                return LeftSprite;
-            default:
-                throw new ArgumentOutOfRangeException("direction");
-        }
-    }
-
-    private static Vector3 GetCurrentDirectionVector(Direction direction)
-    {
-        switch (direction)
-        {
-            case Direction.Up:
+            if (Input.GetKey(KeyCode.UpArrow))
+            {
                 return Vector3.up;
-            case Direction.Right:
-                return Vector3.right;
-            case Direction.Down:
+            }
+            if (Input.GetKey(KeyCode.DownArrow))
+            {
                 return Vector3.down;
-            case Direction.Left:
+            }
+            if (Input.GetKey(KeyCode.LeftArrow))
+            {
                 return Vector3.left;
-            default:
-                throw new ArgumentOutOfRangeException("direction");
-        }
-    }
+            }
+            if (Input.GetKey(KeyCode.RightArrow))
+            {
+                return Vector3.right;
+            }
 
-    protected Vector3 GetDirection()
-    {
-        if (Input.GetKey(KeyCode.UpArrow))
-        {
-            return Vector3.up;
-        }
-        if (Input.GetKey(KeyCode.DownArrow))
-        {
-            return Vector3.down;
-        }
-        if (Input.GetKey(KeyCode.LeftArrow))
-        {
-            return Vector3.left;
-        }
-        if (Input.GetKey(KeyCode.RightArrow))
-        {
-            return Vector3.right;
+            return new Vector3();
         }
 
-        return new Vector3();
-    }
-
-    public void Die()
-    {
-        _died = true;
-        SpriteRenderer.sprite = DeadSprite;
+        public void Die()
+        {
+            _died = true;
+            SpriteRenderer.sprite = DeadSprite;
+        }
     }
 }
