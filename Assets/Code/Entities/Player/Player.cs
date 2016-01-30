@@ -23,6 +23,7 @@ namespace Assets.Code.Entities.Player
 
         void Start()
         {
+            StartingHealth = Health;
         }
 
         void Update()
@@ -73,7 +74,7 @@ namespace Assets.Code.Entities.Player
                 Die();
             }
 
-            //RenderHealth();
+            RenderHealth();
         }
 
         private Sprite GetSprite(Direction direction)

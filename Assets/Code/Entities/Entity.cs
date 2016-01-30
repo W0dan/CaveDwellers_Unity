@@ -5,15 +5,18 @@ namespace Assets.Code.Entities
 {
     public abstract class Entity : MonoBehaviour
     {
+        public float SizeFactor = 1;
+
         public SpriteRenderer HealthRenderer;
         public Sprite Health75;
         public Sprite Health50;
         public Sprite HealthLow;
 
-        public event Action<Entity> Died = entity => {};
+        public event Action<Entity> Died = entity => { };
 
         public float Speed;
         public int Health;
+        public int StartingHealth;
 
         protected float DistanceToMove()
         {
@@ -22,8 +25,6 @@ namespace Assets.Code.Entities
 
         public void TakeHealth(int damage)
         {
-            RenderHealth();
-
             Health -= damage;
 
             if (Health <= 0)
@@ -35,22 +36,28 @@ namespace Assets.Code.Entities
 
         protected virtual float CalculateHealthbarWidth(float health)
         {
-            //todo: have a reasonable width health bar for bigger monsters
-            return health/5;
+            return health / 5;
         }
 
-        private void RenderHealth()
+        private float GetHealthPercent()
         {
-            HealthRenderer.transform.localScale = new Vector3(CalculateHealthbarWidth(Health), 2);
-            if (Health <= 75 && Health > 50)
+            return (float)Health / StartingHealth * 100;
+        }
+
+        protected void RenderHealth()
+        {
+            var healthPercent = GetHealthPercent();
+
+            HealthRenderer.transform.localScale = new Vector3(CalculateHealthbarWidth(healthPercent), 2 / SizeFactor);
+            if (healthPercent <= 75 && healthPercent > 50)
             {
                 HealthRenderer.sprite = Health75;
             }
-            if (Health <= 50 && Health > 25)
+            if (healthPercent <= 50 && healthPercent > 25)
             {
                 HealthRenderer.sprite = Health50;
             }
-            if (Health <= 25)
+            if (healthPercent <= 25)
             {
                 HealthRenderer.sprite = HealthLow;
             }

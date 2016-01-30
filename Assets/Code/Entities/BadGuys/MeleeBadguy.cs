@@ -1,5 +1,6 @@
 ﻿using Assets.Code.Entities.BadGuys.Attacking;
 using Assets.Code.Entities.BadGuys.Moving;
+using UnityEngine;
 
 namespace Assets.Code.Entities.BadGuys
 {
@@ -15,6 +16,8 @@ namespace Assets.Code.Entities.BadGuys
 
         void Start()
         {
+            StartingHealth = Health;
+
             _attackBehaviour = new MeleeAttackBehaviour(this, MinDamage, MaxDamage, RechargeTime, Range);
             _moveBehaviour = new RandomMoveBehaviour(this);
         }
@@ -23,6 +26,8 @@ namespace Assets.Code.Entities.BadGuys
         {
             _moveBehaviour.Move();
             _attackBehaviour.TryAttack();
+
+            RenderHealth();
         }
     }
 }
