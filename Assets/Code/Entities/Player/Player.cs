@@ -72,8 +72,6 @@ namespace Assets.Code.Entities.Player
 
             _rotationAngle = (float)(Mathf.Rad2Deg * Math.Atan2(deltaY, deltaX)) + 90;
 
-            Debug.Log("angle: " + _rotationAngle + "     mouseX: " + mousePosition.x + "  mouseY: " + mousePosition.y + "   playerX: " + playerPosition.x + "    playerY: " + playerPosition.y);
-
             return new Vector3(0, 0, _rotationAngle);
         }
 

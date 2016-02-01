@@ -48,6 +48,10 @@ namespace Assets.Code.Entities
         {
             var healthPercent = GetHealthPercent();
 
+            //var lossyScale = HealthRenderer.transform.lossyScale;
+
+            //Debug.Log(lossyScale);
+
             HealthRenderer.transform.localScale = new Vector3(CalculateHealthbarWidth(healthPercent), 2 / SizeFactor);
             if (healthPercent <= 75 && healthPercent > 50)
             {
