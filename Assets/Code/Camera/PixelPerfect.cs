@@ -8,7 +8,7 @@ public class PixelPerfect : MonoBehaviour
     {
         var unitsPerPixel = 1f / TextureSize;
 
-        Camera.main.orthographicSize = (Screen.height / 2f) * unitsPerPixel;
+        GetComponent<Camera>().orthographicSize = (Screen.height / 2f) * unitsPerPixel;
     }
 
     void Update()

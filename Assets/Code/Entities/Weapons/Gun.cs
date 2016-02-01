@@ -1,5 +1,7 @@
 ﻿using System.Diagnostics;
+using Assets.Code.Entities.Player;
 using UnityEngine;
+using Debug = UnityEngine.Debug;
 
 namespace Assets.Code.Entities.Weapons
 {
@@ -9,8 +11,10 @@ namespace Assets.Code.Entities.Weapons
         public GameObject Pang;
         private Stopwatch _lastShot = null;
 
-        public void Shoot(Vector3 playerPosition, Vector3 direction)
+        public void Shoot(Vector3 playerPosition, float angle)
         {
+            var direction = MathHelpers.GetForwardVector(angle, 1);
+
             Vector2 gunfireOrigin = playerPosition + (direction);
             Vector2 pangLocation = playerPosition + (direction / 2);
 

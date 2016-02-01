@@ -16,7 +16,7 @@ namespace Assets.Code.Entities
 
         public float Speed;
         public int Health;
-        public int StartingHealth;
+        protected int StartingHealth;
 
         protected float DistanceToMove()
         {
