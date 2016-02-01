@@ -1,5 +1,4 @@
 ﻿using System;
-using Assets.Code.Common;
 using Assets.Code.Entities.Weapons;
 using UnityEngine;
 
@@ -9,10 +8,7 @@ namespace Assets.Code.Entities.Player
     {
         public Gun Gun;
 
-        public Sprite ForwardSprite;
-        public Sprite BackwardSprite;
-        public Sprite LeftSprite;
-        public Sprite RightSprite;
+        public Sprite Sprite;
 
         public Sprite DeadSprite;
 
@@ -20,11 +16,9 @@ namespace Assets.Code.Entities.Player
 
         public Camera Camera;
 
-        //private Direction _direction;
         private bool _died;
 
         private float _rotationAngle;
-        //private Vector3 _directionVector;
 
         void Start()
         {
@@ -40,11 +34,11 @@ namespace Assets.Code.Entities.Player
 
             var playerTransform = GetComponent<Rigidbody2D>().transform;
 
-            //var directionVector = MoveKeyboard(playerTransform);
+            playerTransform.eulerAngles = GetAngleMouse(playerTransform);
 
             MoveKeyboardWithStrafing(playerTransform);
 
-            if (Input.GetKey(KeyCode.Space))
+            if (Input.GetKey(KeyCode.Space) || Input.GetMouseButtonDown(0))
             {
                 Gun.Shoot(playerTransform.position, _rotationAngle);
             }
@@ -53,7 +47,7 @@ namespace Assets.Code.Entities.Player
 
             if (Health <= 0)
             {
-                Die();
+                Die(playerTransform);
             }
 
             RenderHealth();
@@ -67,36 +61,23 @@ namespace Assets.Code.Entities.Player
                 Camera.transform.position.z);
         }
 
-        private Vector3 MoveKeyboardAndMouse(Transform playerTransform)
+        private Vector3 GetAngleMouse(Transform playerTransform)
         {
-            ////calculate directionVector based on current location and mouse position
-            //var mousePosition = Input.mousePosition;
+            //calculate rotationAngle based on current location and mouse position
+            var mousePosition = Input.mousePosition;
+            var playerPosition = Camera.WorldToScreenPoint(playerTransform.position);
 
-            //Console.WriteLine(mousePosition);
+            var deltaY = playerPosition.y - mousePosition.y;
+            var deltaX = playerPosition.x - mousePosition.x;
 
-            //var direction = mousePosition - playerTransform.position;
-            //var rotation = Quaternion.LookRotation(direction);
-            ////playerTransform.rotation = Quaternion.LookRotation(direction);
-            //// and afterward, if you want to constrain the rotation to a particular axis- in this case Y:
-            ////playerTransform.eulerAngles = new Vector3(0f, 0f, playerTransform.eulerAngles.z);
+            _rotationAngle = (float)(Mathf.Rad2Deg * Math.Atan2(deltaY, deltaX)) + 90;
 
-            //Vector3 axis;
-            //float angle;
+            Debug.Log("angle: " + _rotationAngle + "     mouseX: " + mousePosition.x + "  mouseY: " + mousePosition.y + "   playerX: " + playerPosition.x + "    playerY: " + playerPosition.y);
 
-            //rotation.ToAngleAxis(out angle, out axis);
-
-            //playerTransform.Rotate(playerTransform.position, angle);
-            //playerTransform.eulerAngles = new Vector3(0f, 0f, playerTransform.eulerAngles.z);
-            ////playerTransform.
-
-            ////playerTransform.localRotation = 
-
-            ////playerTransform.position+=
-
-            return Vector3.up;
+            return new Vector3(0, 0, _rotationAngle);
         }
 
-        private void MoveKeyboardWithStrafing(Transform playerTransform)
+        private Vector3 GetAngleKeyboard(Transform playerTransform)
         {
             //Rotation met knoppekes
             if (Input.GetKey(KeyCode.LeftArrow))
@@ -106,7 +87,6 @@ namespace Assets.Code.Entities.Player
                 {
                     _rotationAngle -= 360;
                 }
-                playerTransform.eulerAngles = new Vector3(0, 0, _rotationAngle);
             }
             if (Input.GetKey(KeyCode.RightArrow))
             {
@@ -115,9 +95,12 @@ namespace Assets.Code.Entities.Player
                 {
                     _rotationAngle += 360;
                 }
-                playerTransform.eulerAngles = new Vector3(0, 0, _rotationAngle);
             }
+            return new Vector3(0, 0, _rotationAngle);
+        }
 
+        private void MoveKeyboardWithStrafing(Transform playerTransform)
+        {
             //forward
             if (Input.GetKey(KeyCode.Z))
             {
@@ -126,11 +109,6 @@ namespace Assets.Code.Entities.Player
             //backward
             if (Input.GetKey(KeyCode.S))
             {
-                //var distanceToMoveUp = -(float)Math.Cos(_rotationAngle * Mathf.Deg2Rad) * DistanceToMove();
-                //var distanceToMoveLeft = (float)Math.Sin(_rotationAngle * Mathf.Deg2Rad) * DistanceToMove();
-
-                //playerTransform.position += new Vector3(distanceToMoveLeft, distanceToMoveUp);
-
                 playerTransform.position += MathHelpers.GetBackwardVector(_rotationAngle, DistanceToMove());
             }
             //left
@@ -150,101 +128,13 @@ namespace Assets.Code.Entities.Player
                 playerTransform.position += new Vector3(distanceToMoveLeft, distanceToMoveUp);
             }
 
-            SpriteRenderer.sprite = ForwardSprite;
+            SpriteRenderer.sprite = Sprite;
         }
 
-        //private Vector3 MoveKeyboard(Transform playerTransform)
-        //{
-        //    var directionVector = GetCurrentDirectionVector(_direction);
-
-        //    if (Input.GetKey(KeyCode.UpArrow))
-        //    {
-        //        _direction = Direction.Up;
-        //        directionVector = Vector3.up;
-        //        playerTransform.position += directionVector * DistanceToMove();
-        //    }
-        //    if (Input.GetKey(KeyCode.DownArrow))
-        //    {
-        //        _direction = Direction.Down;
-        //        directionVector = Vector3.down;
-        //        playerTransform.position += directionVector * DistanceToMove();
-        //    }
-        //    if (Input.GetKey(KeyCode.LeftArrow))
-        //    {
-        //        _direction = Direction.Left;
-        //        directionVector = Vector3.left;
-        //        playerTransform.position += directionVector * DistanceToMove();
-        //    }
-        //    if (Input.GetKey(KeyCode.RightArrow))
-        //    {
-        //        _direction = Direction.Right;
-        //        directionVector = Vector3.right;
-        //        playerTransform.position += directionVector * DistanceToMove();
-        //    }
-
-        //    SpriteRenderer.sprite = GetSprite(_direction);
-        //    return directionVector;
-        //}
-
-        private Sprite GetSprite(Direction direction)
-        {
-            switch (direction)
-            {
-                case Direction.Up:
-                    return ForwardSprite;
-                case Direction.Right:
-                    return RightSprite;
-                case Direction.Down:
-                    return BackwardSprite;
-                case Direction.Left:
-                    return LeftSprite;
-                default:
-                    throw new ArgumentOutOfRangeException("direction");
-            }
-        }
-
-        private static Vector3 GetCurrentDirectionVector(Direction direction)
-        {
-            switch (direction)
-            {
-                case Direction.Up:
-                    return Vector3.up;
-                case Direction.Right:
-                    return Vector3.right;
-                case Direction.Down:
-                    return Vector3.down;
-                case Direction.Left:
-                    return Vector3.left;
-                default:
-                    throw new ArgumentOutOfRangeException("direction");
-            }
-        }
-
-        protected Vector3 GetDirection()
-        {
-            if (Input.GetKey(KeyCode.UpArrow))
-            {
-                return Vector3.up;
-            }
-            if (Input.GetKey(KeyCode.DownArrow))
-            {
-                return Vector3.down;
-            }
-            if (Input.GetKey(KeyCode.LeftArrow))
-            {
-                return Vector3.left;
-            }
-            if (Input.GetKey(KeyCode.RightArrow))
-            {
-                return Vector3.right;
-            }
-
-            return new Vector3();
-        }
-
-        public void Die()
+        public void Die(Transform playerTransform)
         {
             _died = true;
+            playerTransform.eulerAngles = new Vector3(0, 0, 0);
             SpriteRenderer.sprite = DeadSprite;
         }
     }

@@ -27,7 +27,7 @@ namespace Assets.Code.Entities.Weapons
 
             var pang = Instantiate(Pang, pangLocation, Quaternion.identity);
 
-            Destroy(pang, 0.02f);
+            Destroy(pang, 0.05f);
 
             var ray = new Ray2D(gunfireOrigin, direction);
 
