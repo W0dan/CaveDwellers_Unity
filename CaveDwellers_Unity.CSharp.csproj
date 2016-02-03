@@ -76,6 +76,7 @@
     <Compile Include="Assets\Code\Entities\Player\MathHelpers.cs" />
     <Compile Include="Assets\Code\Entities\Player\Player.cs" />
     <Compile Include="Assets\Code\Entities\Weapons\Gun.cs" />
+    <Compile Include="Assets\Code\TileInfo.cs" />
     <Compile Include="Assets\Code\World.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />

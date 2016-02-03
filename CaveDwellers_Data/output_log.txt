@@ -18,1873 +18,1869 @@ Platform assembly: C:\Users\Wodan-Ranger10\git\CaveDwellers_Unity\CaveDwellers_D
 Loading C:\Users\Wodan-Ranger10\git\CaveDwellers_Unity\CaveDwellers_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
 Platform assembly: C:\Users\Wodan-Ranger10\git\CaveDwellers_Unity\CaveDwellers_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
 Loading C:\Users\Wodan-Ranger10\git\CaveDwellers_Unity\CaveDwellers_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-- Completed reload, in  0.031 seconds
+- Completed reload, in  0.098 seconds
 Platform assembly: C:\Users\Wodan-Ranger10\git\CaveDwellers_Unity\CaveDwellers_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Users\Wodan-Ranger10\git\CaveDwellers_Unity\CaveDwellers_Data\Managed\System.dll (this message is harmless)
 desktop: 1920x1200 60Hz; virtual: 1920x1200 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 0.358867 ms
-angle: 138.2572     mouseX: 928  mouseY: 540   playerX: 1160    playerY: 800
+UnloadTime: 0.355068 ms
+angle: 163.3163     mouseX: 1059  mouseY: 463   playerX: 1160    playerY: 800
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: 151.9275     mouseX: 928  mouseY: 540   playerX: 960    playerY: 600
+angle: 215.8529     mouseX: 1059  mouseY: 463   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: 151.9275     mouseX: 928  mouseY: 540   playerX: 960    playerY: 600
+angle: 215.8529     mouseX: 1059  mouseY: 463   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: 151.9275     mouseX: 928  mouseY: 540   playerX: 960    playerY: 600
+angle: 215.8529     mouseX: 1059  mouseY: 463   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: 151.9275     mouseX: 928  mouseY: 540   playerX: 960    playerY: 600
+angle: 215.8529     mouseX: 1059  mouseY: 463   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: 151.9275     mouseX: 928  mouseY: 540   playerX: 960    playerY: 600
+angle: 215.8529     mouseX: 1059  mouseY: 463   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: 151.9275     mouseX: 928  mouseY: 540   playerX: 960    playerY: 600
+angle: 215.8529     mouseX: 1059  mouseY: 463   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: 151.9275     mouseX: 928  mouseY: 540   playerX: 960    playerY: 600
+angle: 215.8529     mouseX: 1059  mouseY: 463   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: 151.9275     mouseX: 928  mouseY: 540   playerX: 960    playerY: 600
+angle: 215.8529     mouseX: 1059  mouseY: 463   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: 151.9275     mouseX: 928  mouseY: 540   playerX: 960    playerY: 600
+angle: 215.8529     mouseX: 1059  mouseY: 463   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: 151.9275     mouseX: 928  mouseY: 540   playerX: 960    playerY: 600
+angle: 215.8529     mouseX: 1059  mouseY: 463   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: 151.9275     mouseX: 928  mouseY: 540   playerX: 960    playerY: 600
+angle: 215.8529     mouseX: 1059  mouseY: 463   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: 151.9275     mouseX: 928  mouseY: 540   playerX: 960    playerY: 600
+angle: 215.8529     mouseX: 1059  mouseY: 463   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: 151.9275     mouseX: 928  mouseY: 540   playerX: 960    playerY: 600
+angle: 215.8529     mouseX: 1059  mouseY: 463   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: 151.9275     mouseX: 928  mouseY: 540   playerX: 960    playerY: 600
+angle: 215.8529     mouseX: 1059  mouseY: 463   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: 151.9275     mouseX: 928  mouseY: 540   playerX: 960    playerY: 600
+angle: 215.8529     mouseX: 1059  mouseY: 463   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: 151.9275     mouseX: 928  mouseY: 540   playerX: 960    playerY: 600
+angle: 215.8529     mouseX: 1059  mouseY: 463   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: 151.9275     mouseX: 928  mouseY: 540   playerX: 960    playerY: 600
+angle: 215.8529     mouseX: 1059  mouseY: 463   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: 151.9275     mouseX: 928  mouseY: 540   playerX: 960    playerY: 600
+angle: 215.8529     mouseX: 1059  mouseY: 463   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: 151.9275     mouseX: 928  mouseY: 540   playerX: 960    playerY: 600
+angle: 215.8529     mouseX: 1059  mouseY: 463   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: 151.9275     mouseX: 928  mouseY: 540   playerX: 960    playerY: 600
+angle: 215.8529     mouseX: 1059  mouseY: 463   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: 151.9275     mouseX: 928  mouseY: 540   playerX: 960    playerY: 600
+angle: 215.8529     mouseX: 1059  mouseY: 463   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: 151.9275     mouseX: 928  mouseY: 540   playerX: 960    playerY: 600
+angle: 215.8529     mouseX: 1059  mouseY: 463   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: 151.9275     mouseX: 928  mouseY: 540   playerX: 960    playerY: 600
+angle: 215.8529     mouseX: 1059  mouseY: 463   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: 151.9275     mouseX: 928  mouseY: 540   playerX: 960    playerY: 600
+angle: 215.8529     mouseX: 1059  mouseY: 463   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: 151.46     mouseX: 929  mouseY: 543   playerX: 960    playerY: 600
+angle: 215.8529     mouseX: 1059  mouseY: 463   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: 150.9454     mouseX: 930  mouseY: 546   playerX: 960    playerY: 600
+angle: 215.8529     mouseX: 1059  mouseY: 463   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: 149.3814     mouseX: 931  mouseY: 551   playerX: 960    playerY: 600
+angle: 215.8529     mouseX: 1059  mouseY: 463   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: 149.4208     mouseX: 934  mouseY: 556   playerX: 960    playerY: 600
+angle: 215.8529     mouseX: 1059  mouseY: 463   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: 149.9314     mouseX: 938  mouseY: 562   playerX: 960    playerY: 600
+angle: 215.8529     mouseX: 1059  mouseY: 463   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: 153.435     mouseX: 943  mouseY: 566   playerX: 960    playerY: 600
+angle: 215.8529     mouseX: 1059  mouseY: 463   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: 158.8387     mouseX: 948  mouseY: 569   playerX: 960    playerY: 600
+angle: 215.8529     mouseX: 1059  mouseY: 463   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: 167.4712     mouseX: 954  mouseY: 573   playerX: 960    playerY: 600
+angle: 215.8529     mouseX: 1059  mouseY: 463   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: 187.7652     mouseX: 963  mouseY: 578   playerX: 960    playerY: 600
+angle: 215.8529     mouseX: 1059  mouseY: 463   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: 232.5947     mouseX: 977  mouseY: 587   playerX: 960    playerY: 600
+angle: 216.6626     mouseX: 1059  mouseY: 467   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: 262.6476     mouseX: 991  mouseY: 596   playerX: 960    playerY: 600
+angle: 217.681     mouseX: 1055  mouseY: 477   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -80.7274     mouseX: 1009  mouseY: 608   playerX: 960    playerY: 600
+angle: 218.601     mouseX: 1055  mouseY: 481   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -73.83551     mouseX: 1029  mouseY: 620   playerX: 960    playerY: 600
+angle: 218.601     mouseX: 1055  mouseY: 481   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -68.31094     mouseX: 1048  mouseY: 635   playerX: 960    playerY: 600
+angle: 218.601     mouseX: 1055  mouseY: 481   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -63.88609     mouseX: 1062  mouseY: 650   playerX: 960    playerY: 600
+angle: 218.601     mouseX: 1055  mouseY: 481   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -60.36162     mouseX: 1076  mouseY: 666   playerX: 960    playerY: 600
+angle: 218.601     mouseX: 1055  mouseY: 481   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -57.82878     mouseX: 1084  mouseY: 678   playerX: 960    playerY: 600
+angle: 218.601     mouseX: 1055  mouseY: 481   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -53.68976     mouseX: 1092  mouseY: 697   playerX: 960    playerY: 600
+angle: 218.601     mouseX: 1055  mouseY: 481   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -50.73338     mouseX: 1097  mouseY: 712   playerX: 960    playerY: 600
+angle: 218.601     mouseX: 1055  mouseY: 481   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -48.12213     mouseX: 1105  mouseY: 730   playerX: 960    playerY: 600
+angle: 218.601     mouseX: 1055  mouseY: 481   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -46.31476     mouseX: 1116  mouseY: 749   playerX: 960    playerY: 600
+angle: 218.601     mouseX: 1055  mouseY: 481   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -45.51004     mouseX: 1130  mouseY: 767   playerX: 960    playerY: 600
+angle: 218.601     mouseX: 1055  mouseY: 481   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -44.21945     mouseX: 1141  mouseY: 786   playerX: 960    playerY: 600
+angle: 218.601     mouseX: 1055  mouseY: 481   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -42.85777     mouseX: 1153  mouseY: 808   playerX: 960    playerY: 600
+angle: 218.601     mouseX: 1055  mouseY: 481   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -41.53983     mouseX: 1162  mouseY: 828   playerX: 960    playerY: 600
+angle: 218.601     mouseX: 1055  mouseY: 481   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -40.48601     mouseX: 1170  mouseY: 846   playerX: 960    playerY: 600
+angle: 218.601     mouseX: 1055  mouseY: 481   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -39.51932     mouseX: 1172  mouseY: 857   playerX: 960    playerY: 600
+angle: 218.601     mouseX: 1055  mouseY: 481   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -38.87172     mouseX: 1172  mouseY: 863   playerX: 960    playerY: 600
+angle: 218.601     mouseX: 1055  mouseY: 481   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -38.44984     mouseX: 1172  mouseY: 867   playerX: 960    playerY: 600
+angle: 218.601     mouseX: 1055  mouseY: 481   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -36.8699     mouseX: 1167  mouseY: 876   playerX: 960    playerY: 600
+angle: 218.601     mouseX: 1055  mouseY: 481   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -36.17363     mouseX: 1164  mouseY: 879   playerX: 960    playerY: 600
+angle: 218.601     mouseX: 1055  mouseY: 481   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -35.61449     mouseX: 1162  mouseY: 882   playerX: 960    playerY: 600
+angle: 218.601     mouseX: 1055  mouseY: 481   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -35.61449     mouseX: 1162  mouseY: 882   playerX: 960    playerY: 600
+angle: 218.601     mouseX: 1055  mouseY: 481   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -35.61449     mouseX: 1162  mouseY: 882   playerX: 960    playerY: 600
+angle: 218.601     mouseX: 1055  mouseY: 481   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -35.51852     mouseX: 1162  mouseY: 883   playerX: 960    playerY: 600
+angle: 218.601     mouseX: 1055  mouseY: 481   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -33.73579     mouseX: 1153  mouseY: 889   playerX: 960    playerY: 600
+angle: 218.601     mouseX: 1055  mouseY: 481   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -30.11373     mouseX: 1134  mouseY: 900   playerX: 960    playerY: 600
+angle: 218.601     mouseX: 1055  mouseY: 481   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -26.78571     mouseX: 1117  mouseY: 911   playerX: 960    playerY: 600
+angle: 218.601     mouseX: 1055  mouseY: 481   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -23.43367     mouseX: 1100  mouseY: 923   playerX: 960    playerY: 600
+angle: 218.601     mouseX: 1055  mouseY: 481   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -20.0916     mouseX: 1084  mouseY: 939   playerX: 960    playerY: 600
+angle: 218.601     mouseX: 1055  mouseY: 481   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -19.08205     mouseX: 1079  mouseY: 944   playerX: 960    playerY: 600
+angle: 218.601     mouseX: 1055  mouseY: 481   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.83145     mouseX: 1078  mouseY: 946   playerX: 960    playerY: 600
+angle: 218.601     mouseX: 1055  mouseY: 481   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.83145     mouseX: 1078  mouseY: 946   playerX: 960    playerY: 600
+angle: 218.601     mouseX: 1055  mouseY: 481   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.83145     mouseX: 1078  mouseY: 946   playerX: 960    playerY: 600
+angle: 218.601     mouseX: 1055  mouseY: 481   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.83145     mouseX: 1078  mouseY: 946   playerX: 960    playerY: 600
+angle: 218.601     mouseX: 1055  mouseY: 481   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.83145     mouseX: 1078  mouseY: 946   playerX: 960    playerY: 600
+angle: 218.601     mouseX: 1055  mouseY: 481   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.83145     mouseX: 1078  mouseY: 946   playerX: 960    playerY: 600
+angle: 218.601     mouseX: 1055  mouseY: 481   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.83145     mouseX: 1078  mouseY: 946   playerX: 960    playerY: 600
+angle: 218.601     mouseX: 1055  mouseY: 481   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.83145     mouseX: 1078  mouseY: 946   playerX: 960    playerY: 600
+angle: 218.601     mouseX: 1055  mouseY: 481   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.83145     mouseX: 1078  mouseY: 946   playerX: 960    playerY: 600
+angle: 220.213     mouseX: 1053  mouseY: 490   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.83145     mouseX: 1078  mouseY: 946   playerX: 960    playerY: 600
+angle: 228.1604     mouseX: 1046  mouseY: 523   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.83145     mouseX: 1078  mouseY: 946   playerX: 960    playerY: 600
+angle: 256.293     mouseX: 1042  mouseY: 580   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.83145     mouseX: 1078  mouseY: 946   playerX: 960    playerY: 600
+angle: 266.5107     mouseX: 1042  mouseY: 595   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.83145     mouseX: 1078  mouseY: 946   playerX: 960    playerY: 600
+angle: -63.95819     mouseX: 1048  mouseY: 643   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.83145     mouseX: 1078  mouseY: 946   playerX: 960    playerY: 600
+angle: -50.67741     mouseX: 1054  mouseY: 677   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.83145     mouseX: 1078  mouseY: 946   playerX: 960    playerY: 600
+angle: -42.29938     mouseX: 1061  mouseY: 711   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.83145     mouseX: 1078  mouseY: 946   playerX: 960    playerY: 600
+angle: -37.87498     mouseX: 1065  mouseY: 735   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -19.6326     mouseX: 1082  mouseY: 942   playerX: 960    playerY: 600
+angle: -35.61086     mouseX: 1066  mouseY: 748   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -20.4445     mouseX: 1086  mouseY: 938   playerX: 960    playerY: 600
+angle: -33.85711     mouseX: 1066  mouseY: 758   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -21.7417     mouseX: 1092  mouseY: 931   playerX: 960    playerY: 600
+angle: -33.03622     mouseX: 1066  mouseY: 763   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -23.00683     mouseX: 1098  mouseY: 925   playerX: 960    playerY: 600
+angle: -32.31459     mouseX: 1065  mouseY: 766   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -24.43034     mouseX: 1104  mouseY: 917   playerX: 960    playerY: 600
+angle: -32.31459     mouseX: 1065  mouseY: 766   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -25.96668     mouseX: 1110  mouseY: 908   playerX: 960    playerY: 600
+angle: -32.31459     mouseX: 1065  mouseY: 766   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -27.0156     mouseX: 1115  mouseY: 904   playerX: 960    playerY: 600
+angle: -32.31459     mouseX: 1065  mouseY: 766   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -30.06085     mouseX: 1129  mouseY: 892   playerX: 960    playerY: 600
+angle: -32.31459     mouseX: 1065  mouseY: 766   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -32.23808     mouseX: 1141  mouseY: 887   playerX: 960    playerY: 600
+angle: -32.31459     mouseX: 1065  mouseY: 766   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -33.54918     mouseX: 1147  mouseY: 882   playerX: 960    playerY: 600
+angle: -32.31459     mouseX: 1065  mouseY: 766   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -34.29958     mouseX: 1151  mouseY: 880   playerX: 960    playerY: 600
+angle: -32.31459     mouseX: 1065  mouseY: 766   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -34.29958     mouseX: 1151  mouseY: 880   playerX: 960    playerY: 600
+angle: -32.31459     mouseX: 1065  mouseY: 766   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -34.29958     mouseX: 1151  mouseY: 880   playerX: 960    playerY: 600
+angle: -32.31459     mouseX: 1065  mouseY: 766   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -34.29958     mouseX: 1151  mouseY: 880   playerX: 960    playerY: 600
+angle: -32.31459     mouseX: 1065  mouseY: 766   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -34.29958     mouseX: 1151  mouseY: 880   playerX: 960    playerY: 600
+angle: -32.31459     mouseX: 1065  mouseY: 766   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -34.29958     mouseX: 1151  mouseY: 880   playerX: 960    playerY: 600
+angle: -32.31459     mouseX: 1065  mouseY: 766   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -34.53466     mouseX: 1152  mouseY: 879   playerX: 960    playerY: 600
+angle: -32.31459     mouseX: 1065  mouseY: 766   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -36.49319     mouseX: 1159  mouseY: 869   playerX: 960    playerY: 600
+angle: -32.31459     mouseX: 1065  mouseY: 766   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -40.37762     mouseX: 1176  mouseY: 854   playerX: 960    playerY: 600
+angle: -32.31459     mouseX: 1065  mouseY: 766   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -42.45789     mouseX: 1186  mouseY: 847   playerX: 960    playerY: 600
+angle: -32.31459     mouseX: 1065  mouseY: 766   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -43.55588     mouseX: 1192  mouseY: 844   playerX: 960    playerY: 600
+angle: -32.27564     mouseX: 1068  mouseY: 771   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -43.91452     mouseX: 1193  mouseY: 842   playerX: 960    playerY: 600
+angle: -31.53979     mouseX: 1076  mouseY: 789   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -43.91452     mouseX: 1193  mouseY: 842   playerX: 960    playerY: 600
+angle: -30.27348     mouseX: 1082  mouseY: 809   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -43.91452     mouseX: 1193  mouseY: 842   playerX: 960    playerY: 600
+angle: -29.20309     mouseX: 1088  mouseY: 829   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -43.91452     mouseX: 1193  mouseY: 842   playerX: 960    playerY: 600
+angle: -28.36905     mouseX: 1095  mouseY: 850   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -43.91452     mouseX: 1193  mouseY: 842   playerX: 960    playerY: 600
+angle: -28.1416     mouseX: 1098  mouseY: 858   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -43.91452     mouseX: 1193  mouseY: 842   playerX: 960    playerY: 600
+angle: -27.39537     mouseX: 1102  mouseY: 874   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -43.91452     mouseX: 1193  mouseY: 842   playerX: 960    playerY: 600
+angle: -26.56506     mouseX: 1105  mouseY: 890   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -43.91452     mouseX: 1193  mouseY: 842   playerX: 960    playerY: 600
+angle: -25.74339     mouseX: 1109  mouseY: 909   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -44.03308     mouseX: 1193  mouseY: 841   playerX: 960    playerY: 600
+angle: -25.23446     mouseX: 1116  mouseY: 931   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -41.38481     mouseX: 1175  mouseY: 844   playerX: 960    playerY: 600
+angle: -25.22392     mouseX: 1131  mouseY: 963   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -38.40839     mouseX: 1159  mouseY: 851   playerX: 960    playerY: 600
+angle: -25.60219     mouseX: 1144  mouseY: 984   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -34.88876     mouseX: 1142  mouseY: 861   playerX: 960    playerY: 600
+angle: -25.92974     mouseX: 1154  mouseY: 999   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -31.64288     mouseX: 1127  mouseY: 871   playerX: 960    playerY: 600
+angle: -26.34103     mouseX: 1163  mouseY: 1010   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -28.50928     mouseX: 1111  mouseY: 878   playerX: 960    playerY: 600
+angle: -26.61999     mouseX: 1169  mouseY: 1017   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -27.21611     mouseX: 1104  mouseY: 880   playerX: 960    playerY: 600
+angle: -26.72891     mouseX: 1171  mouseY: 1019   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -26.9714     mouseX: 1103  mouseY: 881   playerX: 960    playerY: 600
+angle: -26.72891     mouseX: 1171  mouseY: 1019   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -26.9714     mouseX: 1103  mouseY: 881   playerX: 960    playerY: 600
+angle: -26.72891     mouseX: 1171  mouseY: 1019   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -26.9714     mouseX: 1103  mouseY: 881   playerX: 960    playerY: 600
+angle: -26.72891     mouseX: 1171  mouseY: 1019   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -26.64655     mouseX: 1101  mouseY: 881   playerX: 960    playerY: 600
+angle: -26.72891     mouseX: 1171  mouseY: 1019   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -25.39931     mouseX: 1092  mouseY: 878   playerX: 960    playerY: 600
+angle: -26.72891     mouseX: 1171  mouseY: 1019   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -22.69379     mouseX: 1075  mouseY: 875   playerX: 960    playerY: 600
+angle: -26.72891     mouseX: 1171  mouseY: 1019   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -16.64104     mouseX: 1041  mouseY: 871   playerX: 960    playerY: 600
+angle: -26.72891     mouseX: 1171  mouseY: 1019   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -13.58431     mouseX: 1025  mouseY: 869   playerX: 960    playerY: 600
+angle: -26.72891     mouseX: 1171  mouseY: 1019   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -12.21151     mouseX: 1018  mouseY: 868   playerX: 960    playerY: 600
+angle: -26.72891     mouseX: 1171  mouseY: 1019   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -12.05079     mouseX: 1017  mouseY: 867   playerX: 960    playerY: 600
+angle: -27.16356     mouseX: 1175  mouseY: 1019   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -12.05079     mouseX: 1017  mouseY: 867   playerX: 960    playerY: 600
+angle: -28.86441     mouseX: 1186  mouseY: 1010   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -12.05079     mouseX: 1017  mouseY: 867   playerX: 960    playerY: 600
+angle: -30.30958     mouseX: 1195  mouseY: 1002   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -12.05079     mouseX: 1017  mouseY: 867   playerX: 960    playerY: 600
+angle: -31.1324     mouseX: 1201  mouseY: 999   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -10.89355     mouseX: 1011  mouseY: 865   playerX: 960    playerY: 600
+angle: -31.47041     mouseX: 1203  mouseY: 997   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -9.176201     mouseX: 1002  mouseY: 860   playerX: 960    playerY: 600
+angle: -31.57529     mouseX: 1204  mouseY: 997   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -7.594643     mouseX: 994  mouseY: 855   playerX: 960    playerY: 600
+angle: -31.57529     mouseX: 1204  mouseY: 997   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -6.590607     mouseX: 989  mouseY: 851   playerX: 960    playerY: 600
+angle: -31.57529     mouseX: 1204  mouseY: 997   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -6.188614     mouseX: 987  mouseY: 849   playerX: 960    playerY: 600
+angle: -31.57529     mouseX: 1204  mouseY: 997   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -5.779488     mouseX: 985  mouseY: 847   playerX: 960    playerY: 600
+angle: -31.57529     mouseX: 1204  mouseY: 997   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -4.879272     mouseX: 981  mouseY: 846   playerX: 960    playerY: 600
+angle: -31.84905     mouseX: 1206  mouseY: 996   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -3.297348     mouseX: 974  mouseY: 843   playerX: 960    playerY: 600
+angle: -33.17851     mouseX: 1215  mouseY: 990   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -1.901237     mouseX: 968  mouseY: 841   playerX: 960    playerY: 600
+angle: -34.36971     mouseX: 1224  mouseY: 986   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -0.4814682     mouseX: 962  mouseY: 838   playerX: 960    playerY: 600
+angle: -34.64095     mouseX: 1226  mouseY: 985   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: 0.2438126     mouseX: 959  mouseY: 835   playerX: 960    playerY: 600
+angle: -34.64095     mouseX: 1226  mouseY: 985   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: 0.5115585     mouseX: 958  mouseY: 824   playerX: 960    playerY: 600
+angle: -34.64095     mouseX: 1226  mouseY: 985   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -1.086044     mouseX: 964  mouseY: 811   playerX: 960    playerY: 600
+angle: -34.64095     mouseX: 1226  mouseY: 985   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -5.092117     mouseX: 978  mouseY: 802   playerX: 960    playerY: 600
+angle: -34.64095     mouseX: 1226  mouseY: 985   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -11.6503     mouseX: 1000  mouseY: 794   playerX: 960    playerY: 600
+angle: -34.64095     mouseX: 1226  mouseY: 985   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -24.04818     mouseX: 1043  mouseY: 786   playerX: 960    playerY: 600
+angle: -34.64095     mouseX: 1226  mouseY: 985   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -39.37408     mouseX: 1111  mouseY: 784   playerX: 960    playerY: 600
+angle: -34.64095     mouseX: 1226  mouseY: 985   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -52.67622     mouseX: 1221  mouseY: 799   playerX: 960    playerY: 600
+angle: -34.36971     mouseX: 1224  mouseY: 986   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -55.52228     mouseX: 1276  mouseY: 817   playerX: 960    playerY: 600
+angle: -33.04441     mouseX: 1215  mouseY: 992   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -56.7683     mouseX: 1308  mouseY: 828   playerX: 960    playerY: 600
+angle: -31.55138     mouseX: 1205  mouseY: 999   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -57.50871     mouseX: 1329  mouseY: 835   playerX: 960    playerY: 600
+angle: -30.16862     mouseX: 1196  mouseY: 1006   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -58.08788     mouseX: 1347  mouseY: 841   playerX: 960    playerY: 600
+angle: -29.83554     mouseX: 1194  mouseY: 1008   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -58.62196     mouseX: 1365  mouseY: 847   playerX: 960    playerY: 600
+angle: -29.83554     mouseX: 1194  mouseY: 1008   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -58.91689     mouseX: 1383  mouseY: 855   playerX: 960    playerY: 600
+angle: -29.83554     mouseX: 1194  mouseY: 1008   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -59.16927     mouseX: 1404  mouseY: 865   playerX: 960    playerY: 600
+angle: -29.83554     mouseX: 1194  mouseY: 1008   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -59.1843     mouseX: 1416  mouseY: 872   playerX: 960    playerY: 600
+angle: -29.83554     mouseX: 1194  mouseY: 1008   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -59.18269     mouseX: 1421  mouseY: 875   playerX: 960    playerY: 600
+angle: -29.83554     mouseX: 1194  mouseY: 1008   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -59.23729     mouseX: 1422  mouseY: 875   playerX: 960    playerY: 600
+angle: -29.83554     mouseX: 1194  mouseY: 1008   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -59.23729     mouseX: 1422  mouseY: 875   playerX: 960    playerY: 600
+angle: -29.83554     mouseX: 1194  mouseY: 1008   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -59.20032     mouseX: 1423  mouseY: 876   playerX: 960    playerY: 600
+angle: -29.82008     mouseX: 1195  mouseY: 1010   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -59.20032     mouseX: 1423  mouseY: 876   playerX: 960    playerY: 600
+angle: -31.49768     mouseX: 1210  mouseY: 1008   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -59.25465     mouseX: 1424  mouseY: 876   playerX: 960    playerY: 600
+angle: -32.00539     mouseX: 1215  mouseY: 1008   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -59.81815     mouseX: 1438  mouseY: 878   playerX: 960    playerY: 600
+angle: -32.00539     mouseX: 1215  mouseY: 1008   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -60.77927     mouseX: 1457  mouseY: 878   playerX: 960    playerY: 600
+angle: -32.10625     mouseX: 1216  mouseY: 1008   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -61.64641     mouseX: 1477  mouseY: 879   playerX: 960    playerY: 600
+angle: -32.10625     mouseX: 1216  mouseY: 1008   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -62.28578     mouseX: 1493  mouseY: 880   playerX: 960    playerY: 600
+angle: -32.10625     mouseX: 1216  mouseY: 1008   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -62.37796     mouseX: 1497  mouseY: 881   playerX: 960    playerY: 600
+angle: -32.10625     mouseX: 1216  mouseY: 1008   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -62.37796     mouseX: 1497  mouseY: 881   playerX: 960    playerY: 600
+angle: -32.10625     mouseX: 1216  mouseY: 1008   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -62.37796     mouseX: 1497  mouseY: 881   playerX: 960    playerY: 600
+angle: -32.10625     mouseX: 1216  mouseY: 1008   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -62.37796     mouseX: 1497  mouseY: 881   playerX: 960    playerY: 600
+angle: -32.56287     mouseX: 1218  mouseY: 1004   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -62.37796     mouseX: 1497  mouseY: 881   playerX: 960    playerY: 600
+angle: -33.15926     mouseX: 1222  mouseY: 1001   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -62.88283     mouseX: 1497  mouseY: 875   playerX: 960    playerY: 600
+angle: -34.22366     mouseX: 1228  mouseY: 994   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -64.59882     mouseX: 1497  mouseY: 855   playerX: 960    playerY: 600
+angle: -35.06116     mouseX: 1233  mouseY: 989   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -66.90587     mouseX: 1490  mouseY: 826   playerX: 960    playerY: 600
+angle: -36.89421     mouseX: 1243  mouseY: 977   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -69.38373     mouseX: 1481  mouseY: 796   playerX: 960    playerY: 600
+angle: -37.9716     mouseX: 1248  mouseY: 969   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -71.46518     mouseX: 1476  mouseY: 773   playerX: 960    playerY: 600
+angle: -39.10591     mouseX: 1251  mouseY: 958   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -73.24974     mouseX: 1475  mouseY: 755   playerX: 960    playerY: 600
+angle: -40.46504     mouseX: 1256  mouseY: 947   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -73.95239     mouseX: 1478  mouseY: 749   playerX: 960    playerY: 600
+angle: -42.75952     mouseX: 1267  mouseY: 932   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -74.11284     mouseX: 1480  mouseY: 748   playerX: 960    playerY: 600
+angle: -45.44141     mouseX: 1287  mouseY: 922   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -74.11284     mouseX: 1480  mouseY: 748   playerX: 960    playerY: 600
+angle: -48.27541     mouseX: 1311  mouseY: 913   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -74.11284     mouseX: 1480  mouseY: 748   playerX: 960    playerY: 600
+angle: -51.06544     mouseX: 1340  mouseY: 907   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -74.11284     mouseX: 1480  mouseY: 748   playerX: 960    playerY: 600
+angle: -53.33138     mouseX: 1371  mouseY: 906   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -74.11284     mouseX: 1480  mouseY: 748   playerX: 960    playerY: 600
+angle: -56.33881     mouseX: 1418  mouseY: 905   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -74.11284     mouseX: 1480  mouseY: 748   playerX: 960    playerY: 600
+angle: -57.44463     mouseX: 1444  mouseY: 909   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -73.46201     mouseX: 1482  mouseY: 755   playerX: 960    playerY: 600
+angle: -58.08723     mouseX: 1461  mouseY: 912   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -71.72922     mouseX: 1484  mouseY: 773   playerX: 960    playerY: 600
+angle: -58.20929     mouseX: 1465  mouseY: 913   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -70.20882     mouseX: 1488  mouseY: 790   playerX: 960    playerY: 600
+angle: -58.20929     mouseX: 1465  mouseY: 913   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -68.59256     mouseX: 1488  mouseY: 807   playerX: 960    playerY: 600
+angle: -58.20929     mouseX: 1465  mouseY: 913   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -67.17123     mouseX: 1485  mouseY: 821   playerX: 960    playerY: 600
+angle: -58.20929     mouseX: 1465  mouseY: 913   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -65.72197     mouseX: 1481  mouseY: 835   playerX: 960    playerY: 600
+angle: -58.20929     mouseX: 1465  mouseY: 913   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -65.00739     mouseX: 1477  mouseY: 841   playerX: 960    playerY: 600
+angle: -58.20929     mouseX: 1465  mouseY: 913   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -64.06258     mouseX: 1474  mouseY: 850   playerX: 960    playerY: 600
+angle: -58.20929     mouseX: 1465  mouseY: 913   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -63.79417     mouseX: 1472  mouseY: 852   playerX: 960    playerY: 600
+angle: -58.20929     mouseX: 1465  mouseY: 913   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -63.79417     mouseX: 1472  mouseY: 852   playerX: 960    playerY: 600
+angle: -58.20929     mouseX: 1465  mouseY: 913   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -63.79417     mouseX: 1472  mouseY: 852   playerX: 960    playerY: 600
+angle: -58.26001     mouseX: 1466  mouseY: 913   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -63.79417     mouseX: 1472  mouseY: 852   playerX: 960    playerY: 600
+angle: -58.41135     mouseX: 1469  mouseY: 913   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -63.79417     mouseX: 1472  mouseY: 852   playerX: 960    playerY: 600
+angle: -58.41135     mouseX: 1469  mouseY: 913   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -63.79417     mouseX: 1472  mouseY: 852   playerX: 960    playerY: 600
+angle: -58.41135     mouseX: 1469  mouseY: 913   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -63.03114     mouseX: 1469  mouseY: 859   playerX: 960    playerY: 600
+angle: -58.41135     mouseX: 1469  mouseY: 913   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -61.77402     mouseX: 1463  mouseY: 870   playerX: 960    playerY: 600
+angle: -58.41135     mouseX: 1469  mouseY: 913   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -60.47864     mouseX: 1458  mouseY: 882   playerX: 960    playerY: 600
+angle: -58.41135     mouseX: 1469  mouseY: 913   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -59.24136     mouseX: 1454  mouseY: 894   playerX: 960    playerY: 600
+angle: -58.41135     mouseX: 1469  mouseY: 913   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -58.28865     mouseX: 1452  mouseY: 904   playerX: 960    playerY: 600
+angle: -58.41135     mouseX: 1469  mouseY: 913   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -57.28833     mouseX: 1452  mouseY: 916   playerX: 960    playerY: 600
+angle: -58.41135     mouseX: 1469  mouseY: 913   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -55.98865     mouseX: 1452  mouseY: 932   playerX: 960    playerY: 600
+angle: -58.41135     mouseX: 1469  mouseY: 913   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -54.84583     mouseX: 1457  mouseY: 950   playerX: 960    playerY: 600
+angle: -58.41135     mouseX: 1469  mouseY: 913   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -54.44057     mouseX: 1458  mouseY: 956   playerX: 960    playerY: 600
+angle: -58.41135     mouseX: 1469  mouseY: 913   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -54.26729     mouseX: 1459  mouseY: 959   playerX: 960    playerY: 600
+angle: -58.41135     mouseX: 1469  mouseY: 913   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -54.09546     mouseX: 1460  mouseY: 962   playerX: 960    playerY: 600
+angle: -58.41135     mouseX: 1469  mouseY: 913   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -53.94539     mouseX: 1460  mouseY: 964   playerX: 960    playerY: 600
+angle: -58.41135     mouseX: 1469  mouseY: 913   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -53.87056     mouseX: 1460  mouseY: 965   playerX: 960    playerY: 600
+angle: -58.41135     mouseX: 1469  mouseY: 913   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -53.87056     mouseX: 1460  mouseY: 965   playerX: 960    playerY: 600
+angle: -58.41135     mouseX: 1469  mouseY: 913   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -53.87056     mouseX: 1460  mouseY: 965   playerX: 960    playerY: 600
+angle: -58.41135     mouseX: 1469  mouseY: 913   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -53.87056     mouseX: 1460  mouseY: 965   playerX: 960    playerY: 600
+angle: -58.41135     mouseX: 1469  mouseY: 913   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -53.87056     mouseX: 1460  mouseY: 965   playerX: 960    playerY: 600
+angle: -58.41135     mouseX: 1469  mouseY: 913   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -53.87056     mouseX: 1460  mouseY: 965   playerX: 960    playerY: 600
+angle: -58.41135     mouseX: 1469  mouseY: 913   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -53.87056     mouseX: 1460  mouseY: 965   playerX: 960    playerY: 600
+angle: -58.37996     mouseX: 1470  mouseY: 914   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -53.87056     mouseX: 1460  mouseY: 965   playerX: 960    playerY: 600
+angle: -58.37996     mouseX: 1470  mouseY: 914   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -53.87056     mouseX: 1460  mouseY: 965   playerX: 960    playerY: 600
+angle: -58.37996     mouseX: 1470  mouseY: 914   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -53.87056     mouseX: 1460  mouseY: 965   playerX: 960    playerY: 600
+angle: -58.37996     mouseX: 1470  mouseY: 914   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -53.72133     mouseX: 1460  mouseY: 967   playerX: 960    playerY: 600
+angle: -58.37996     mouseX: 1470  mouseY: 914   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -53.24071     mouseX: 1458  mouseY: 972   playerX: 960    playerY: 600
+angle: -58.37996     mouseX: 1470  mouseY: 914   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -52.90895     mouseX: 1456  mouseY: 975   playerX: 960    playerY: 600
+angle: -58.37996     mouseX: 1470  mouseY: 914   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -52.76224     mouseX: 1456  mouseY: 977   playerX: 960    playerY: 600
+angle: -58.37996     mouseX: 1470  mouseY: 914   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -52.61609     mouseX: 1456  mouseY: 979   playerX: 960    playerY: 600
+angle: -58.37996     mouseX: 1470  mouseY: 914   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -52.39793     mouseX: 1456  mouseY: 982   playerX: 960    playerY: 600
+angle: -58.21732     mouseX: 1470  mouseY: 916   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -52.10902     mouseX: 1456  mouseY: 986   playerX: 960    playerY: 600
+angle: -58.13622     mouseX: 1470  mouseY: 917   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -52.00574     mouseX: 1458  mouseY: 989   playerX: 960    playerY: 600
+angle: -58.13622     mouseX: 1470  mouseY: 917   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -52.45314     mouseX: 1470  mouseY: 992   playerX: 960    playerY: 600
+angle: -58.13622     mouseX: 1470  mouseY: 917   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -53.91609     mouseX: 1502  mouseY: 995   playerX: 960    playerY: 600
+angle: -58.13622     mouseX: 1470  mouseY: 917   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -55.41476     mouseX: 1530  mouseY: 993   playerX: 960    playerY: 600
+angle: -58.13622     mouseX: 1470  mouseY: 917   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -57.43713     mouseX: 1566  mouseY: 987   playerX: 960    playerY: 600
+angle: -58.13622     mouseX: 1470  mouseY: 917   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -59.41777     mouseX: 1603  mouseY: 980   playerX: 960    playerY: 600
+angle: -58.13622     mouseX: 1470  mouseY: 917   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -61.08888     mouseX: 1639  mouseY: 975   playerX: 960    playerY: 600
+angle: -58.13622     mouseX: 1470  mouseY: 917   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -61.9827     mouseX: 1661  mouseY: 973   playerX: 960    playerY: 600
+angle: -57.3679     mouseX: 1466  mouseY: 924   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -62.24814     mouseX: 1667  mouseY: 972   playerX: 960    playerY: 600
+angle: -55.99059     mouseX: 1455  mouseY: 934   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -62.24814     mouseX: 1667  mouseY: 972   playerX: 960    playerY: 600
+angle: -54.92122     mouseX: 1447  mouseY: 942   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -62.24814     mouseX: 1667  mouseY: 972   playerX: 960    playerY: 600
+angle: -54.17104     mouseX: 1442  mouseY: 948   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -62.24814     mouseX: 1667  mouseY: 972   playerX: 960    playerY: 600
+angle: -53.90172     mouseX: 1440  mouseY: 950   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -62.24814     mouseX: 1667  mouseY: 972   playerX: 960    playerY: 600
+angle: -53.90172     mouseX: 1440  mouseY: 950   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -62.24814     mouseX: 1667  mouseY: 972   playerX: 960    playerY: 600
+angle: -53.90172     mouseX: 1440  mouseY: 950   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -62.24814     mouseX: 1667  mouseY: 972   playerX: 960    playerY: 600
+angle: -53.90172     mouseX: 1440  mouseY: 950   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -62.24814     mouseX: 1667  mouseY: 972   playerX: 960    playerY: 600
+angle: -53.90172     mouseX: 1440  mouseY: 950   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -61.85098     mouseX: 1659  mouseY: 974   playerX: 960    playerY: 600
+angle: -53.90172     mouseX: 1440  mouseY: 950   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -60.14456     mouseX: 1629  mouseY: 984   playerX: 960    playerY: 600
+angle: -53.90172     mouseX: 1440  mouseY: 950   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -58.40752     mouseX: 1599  mouseY: 993   playerX: 960    playerY: 600
+angle: -53.90172     mouseX: 1440  mouseY: 950   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -56.11304     mouseX: 1563  mouseY: 1005   playerX: 960    playerY: 600
+angle: -53.61157     mouseX: 1439  mouseY: 953   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -54.2749     mouseX: 1537  mouseY: 1015   playerX: 960    playerY: 600
+angle: -53.07225     mouseX: 1435  mouseY: 957   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -52.83553     mouseX: 1518  mouseY: 1023   playerX: 960    playerY: 600
+angle: -52.66681     mouseX: 1432  mouseY: 960   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -51.61095     mouseX: 1504  mouseY: 1031   playerX: 960    playerY: 600
+angle: -52.47267     mouseX: 1430  mouseY: 961   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -50.86198     mouseX: 1497  mouseY: 1037   playerX: 960    playerY: 600
+angle: -52.47267     mouseX: 1430  mouseY: 961   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -50.5125     mouseX: 1494  mouseY: 1040   playerX: 960    playerY: 600
+angle: -52.47267     mouseX: 1430  mouseY: 961   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -50.5125     mouseX: 1494  mouseY: 1040   playerX: 960    playerY: 600
+angle: -52.47267     mouseX: 1430  mouseY: 961   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -50.5125     mouseX: 1494  mouseY: 1040   playerX: 960    playerY: 600
+angle: -52.47267     mouseX: 1430  mouseY: 961   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -50.5125     mouseX: 1494  mouseY: 1040   playerX: 960    playerY: 600
+angle: -52.47267     mouseX: 1430  mouseY: 961   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -50.5125     mouseX: 1494  mouseY: 1040   playerX: 960    playerY: 600
+angle: -52.47267     mouseX: 1430  mouseY: 961   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -50.5125     mouseX: 1494  mouseY: 1040   playerX: 960    playerY: 600
+angle: -52.47267     mouseX: 1430  mouseY: 961   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -50.5125     mouseX: 1494  mouseY: 1040   playerX: 960    playerY: 600
+angle: -52.47267     mouseX: 1430  mouseY: 961   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -50.5125     mouseX: 1494  mouseY: 1040   playerX: 960    playerY: 600
+angle: -52.47267     mouseX: 1430  mouseY: 961   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -50.5125     mouseX: 1494  mouseY: 1040   playerX: 960    playerY: 600
+angle: -52.47267     mouseX: 1430  mouseY: 961   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -50.5125     mouseX: 1494  mouseY: 1040   playerX: 960    playerY: 600
+angle: -52.47267     mouseX: 1430  mouseY: 961   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -50.74554     mouseX: 1496  mouseY: 1038   playerX: 960    playerY: 600
+angle: -52.47267     mouseX: 1430  mouseY: 961   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -51.05508     mouseX: 1497  mouseY: 1034   playerX: 960    playerY: 600
+angle: -52.47267     mouseX: 1430  mouseY: 961   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -51.80992     mouseX: 1499  mouseY: 1024   playerX: 960    playerY: 600
+angle: -52.47267     mouseX: 1430  mouseY: 961   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -53.99124     mouseX: 1509  mouseY: 999   playerX: 960    playerY: 600
+angle: -52.47267     mouseX: 1430  mouseY: 961   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -55.67151     mouseX: 1515  mouseY: 979   playerX: 960    playerY: 600
+angle: -52.47267     mouseX: 1430  mouseY: 961   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -57.07352     mouseX: 1519  mouseY: 962   playerX: 960    playerY: 600
+angle: -52.47267     mouseX: 1430  mouseY: 961   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -57.62822     mouseX: 1520  mouseY: 955   playerX: 960    playerY: 600
+angle: -52.4137     mouseX: 1429  mouseY: 961   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -57.8477     mouseX: 1520  mouseY: 952   playerX: 960    playerY: 600
+angle: -52.21857     mouseX: 1427  mouseY: 962   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -57.8477     mouseX: 1520  mouseY: 952   playerX: 960    playerY: 600
+angle: -52.21857     mouseX: 1427  mouseY: 962   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -57.8477     mouseX: 1520  mouseY: 952   playerX: 960    playerY: 600
+angle: -52.21857     mouseX: 1427  mouseY: 962   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -57.8477     mouseX: 1520  mouseY: 952   playerX: 960    playerY: 600
+angle: -52.21857     mouseX: 1427  mouseY: 962   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -57.8477     mouseX: 1520  mouseY: 952   playerX: 960    playerY: 600
+angle: -52.21857     mouseX: 1427  mouseY: 962   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -57.8477     mouseX: 1520  mouseY: 952   playerX: 960    playerY: 600
+angle: -52.21857     mouseX: 1427  mouseY: 962   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -57.8477     mouseX: 1520  mouseY: 952   playerX: 960    playerY: 600
+angle: -52.50841     mouseX: 1428  mouseY: 959   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -57.89375     mouseX: 1521  mouseY: 952   playerX: 960    playerY: 600
+angle: -54.06578     mouseX: 1436  mouseY: 945   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -59.06511     mouseX: 1544  mouseY: 950   playerX: 960    playerY: 600
+angle: -56.63564     mouseX: 1449  mouseY: 922   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -59.78508     mouseX: 1561  mouseY: 950   playerX: 960    playerY: 600
+angle: -58.68227     mouseX: 1458  mouseY: 903   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -60.43546     mouseX: 1577  mouseY: 950   playerX: 960    playerY: 600
+angle: -60.82031     mouseX: 1465  mouseY: 882   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -60.61179     mouseX: 1585  mouseY: 952   playerX: 960    playerY: 600
+angle: -62.80928     mouseX: 1470  mouseY: 862   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -60.65094     mouseX: 1586  mouseY: 952   playerX: 960    playerY: 600
+angle: -64.42816     mouseX: 1472  mouseY: 845   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -60.65094     mouseX: 1586  mouseY: 952   playerX: 960    playerY: 600
+angle: -65.65671     mouseX: 1475  mouseY: 833   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -60.65094     mouseX: 1586  mouseY: 952   playerX: 960    playerY: 600
+angle: -66.89493     mouseX: 1478  mouseY: 821   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -60.65094     mouseX: 1586  mouseY: 952   playerX: 960    playerY: 600
+angle: -67.74237     mouseX: 1478  mouseY: 812   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -60.65094     mouseX: 1586  mouseY: 952   playerX: 960    playerY: 600
+angle: -68.17949     mouseX: 1477  mouseY: 807   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -60.58145     mouseX: 1586  mouseY: 953   playerX: 960    playerY: 600
+angle: -68.06418     mouseX: 1474  mouseY: 807   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -60.76215     mouseX: 1596  mouseY: 956   playerX: 960    playerY: 600
+angle: -67.11584     mouseX: 1467  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -60.74025     mouseX: 1599  mouseY: 958   playerX: 960    playerY: 600
+angle: -65.98395     mouseX: 1456  mouseY: 821   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -60.61714     mouseX: 1610  mouseY: 966   playerX: 960    playerY: 600
+angle: -64.82745     mouseX: 1443  mouseY: 827   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -60.40607     mouseX: 1615  mouseY: 972   playerX: 960    playerY: 600
+angle: -63.87643     mouseX: 1429  mouseY: 830   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -60.30182     mouseX: 1621  mouseY: 977   playerX: 960    playerY: 600
+angle: -62.87624     mouseX: 1409  mouseY: 830   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -60.25513     mouseX: 1625  mouseY: 980   playerX: 960    playerY: 600
+angle: -62.87624     mouseX: 1409  mouseY: 830   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -60.37498     mouseX: 1630  mouseY: 981   playerX: 960    playerY: 600
+angle: -62.87624     mouseX: 1409  mouseY: 830   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -60.48485     mouseX: 1633  mouseY: 981   playerX: 960    playerY: 600
+angle: -62.87624     mouseX: 1409  mouseY: 830   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -60.48485     mouseX: 1633  mouseY: 981   playerX: 960    playerY: 600
+angle: -62.61504     mouseX: 1404  mouseY: 830   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -60.48485     mouseX: 1633  mouseY: 981   playerX: 960    playerY: 600
+angle: -61.45633     mouseX: 1381  mouseY: 829   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -60.48485     mouseX: 1633  mouseY: 981   playerX: 960    playerY: 600
+angle: -60.65578     mouseX: 1362  mouseY: 826   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -60.48485     mouseX: 1633  mouseY: 981   playerX: 960    playerY: 600
+angle: -60.14305     mouseX: 1345  mouseY: 821   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -60.48485     mouseX: 1633  mouseY: 981   playerX: 960    playerY: 600
+angle: -60.22275     mouseX: 1341  mouseY: 818   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -60.48485     mouseX: 1633  mouseY: 981   playerX: 960    playerY: 600
+angle: -60.27136     mouseX: 1340  mouseY: 817   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -60.48485     mouseX: 1633  mouseY: 981   playerX: 960    playerY: 600
+angle: -60.38519     mouseX: 1340  mouseY: 816   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -60.42043     mouseX: 1633  mouseY: 982   playerX: 960    playerY: 600
+angle: -60.38519     mouseX: 1340  mouseY: 816   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -59.94849     mouseX: 1622  mouseY: 983   playerX: 960    playerY: 600
+angle: -60.38519     mouseX: 1340  mouseY: 816   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -59.27159     mouseX: 1606  mouseY: 984   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -58.47427     mouseX: 1586  mouseY: 984   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -57.63907     mouseX: 1566  mouseY: 984   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -56.74451     mouseX: 1541  mouseY: 981   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -55.78714     mouseX: 1513  mouseY: 976   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -54.60907     mouseX: 1478  mouseY: 968   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -53.14957     mouseX: 1431  mouseY: 953   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -50.80409     mouseX: 1361  mouseY: 927   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -49.38553     mouseX: 1318  mouseY: 907   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -48.9108     mouseX: 1296  mouseY: 893   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -48.54147     mouseX: 1286  mouseY: 888   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -48.5881     mouseX: 1282  mouseY: 884   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -48.5881     mouseX: 1282  mouseY: 884   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -48.5881     mouseX: 1282  mouseY: 884   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -48.5881     mouseX: 1282  mouseY: 884   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -48.5881     mouseX: 1282  mouseY: 884   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -48.5881     mouseX: 1282  mouseY: 884   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -48.5881     mouseX: 1282  mouseY: 884   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -48.5881     mouseX: 1282  mouseY: 884   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -48.5881     mouseX: 1282  mouseY: 884   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -48.5881     mouseX: 1282  mouseY: 884   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -48.5881     mouseX: 1282  mouseY: 884   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -48.5881     mouseX: 1282  mouseY: 884   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -48.5881     mouseX: 1282  mouseY: 884   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -48.41095     mouseX: 1280  mouseY: 884   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -46.53264     mouseX: 1267  mouseY: 891   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -43.2466     mouseX: 1245  mouseY: 903   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -39.09386     mouseX: 1220  mouseY: 920   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -34.18828     mouseX: 1193  mouseY: 943   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -28.57781     mouseX: 1161  mouseY: 969   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -23.21614     mouseX: 1129  mouseY: 994   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -20.40124     mouseX: 1111  mouseY: 1006   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -20.23138     mouseX: 1110  mouseY: 1007   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -20.23138     mouseX: 1110  mouseY: 1007   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -20.23138     mouseX: 1110  mouseY: 1007   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -19.86916     mouseX: 1106  mouseY: 1004   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.86574     mouseX: 1096  mouseY: 998   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.34653     mouseX: 1089  mouseY: 989   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -17.75558     mouseX: 1082  mouseY: 981   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -17.37147     mouseX: 1077  mouseY: 974   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -17.45921     mouseX: 1077  mouseY: 972   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -17.40691     mouseX: 1076  mouseY: 970   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -17.45123     mouseX: 1076  mouseY: 969   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -17.45123     mouseX: 1076  mouseY: 969   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -17.45123     mouseX: 1076  mouseY: 969   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -17.45123     mouseX: 1076  mouseY: 969   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -17.45123     mouseX: 1076  mouseY: 969   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -17.45123     mouseX: 1076  mouseY: 969   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -17.45123     mouseX: 1076  mouseY: 969   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -17.49576     mouseX: 1076  mouseY: 968   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -17.72176     mouseX: 1076  mouseY: 963   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -17.86009     mouseX: 1076  mouseY: 960   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -17.90667     mouseX: 1076  mouseY: 959   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.00053     mouseX: 1076  mouseY: 957   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
-
-angle: -18.04782     mouseX: 1076  mouseY: 956   playerX: 960    playerY: 600
+angle: -60.61362     mouseX: 1340  mouseY: 814   playerX: 960    playerY: 600
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
 Setting up 1 worker threads for Enlighten.
-  Thread -> id: 1ad8 -> priority: 1 
+  Thread -> id: 2204 -> priority: 1 

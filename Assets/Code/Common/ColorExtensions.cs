@@ -1,4 +1,8 @@
-﻿using UnityEngine;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using UnityEngine;
+using Random = UnityEngine.Random;
 
 namespace Assets.Code.Common
 {
@@ -17,6 +21,29 @@ namespace Assets.Code.Common
             if ((byte)(color1.b * 255) != (byte)(color2.b * 255)) return false;
 
             return true;
+        }
+
+        public static bool IsIn(this Color color, IEnumerable<Color> colors)
+        {
+            return colors.Any(c => c == color);
+        }
+
+        private static int _prevIndex = -1;
+        public static GameObject GetRandomSprite(this List<GameObject> sprites)
+        {
+            var index = (int)(Random.value * sprites.Count);
+            if (index == _prevIndex)
+                index = 0;
+
+            _prevIndex = index;
+            return sprites[index];
+
+            //var index = colors.IndexOf(color);
+
+            //if (index < 0 || index >= colors.Count)
+            //    return 0;
+
+            //return index;
         }
     }
 }
