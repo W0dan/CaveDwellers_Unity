@@ -6,14 +6,12 @@ namespace Assets.Code.Entities.Player
 {
     public class Player : Entity
     {
+        public event Action<int> HitTrigger = id => { };
+
         public Gun Gun;
-
         public Sprite Sprite;
-
         public Sprite DeadSprite;
-
         public SpriteRenderer SpriteRenderer;
-
         public Camera Camera;
 
         private bool _died;
@@ -22,7 +20,14 @@ namespace Assets.Code.Entities.Player
 
         void Start()
         {
+            Gun.HitTrigger += Gun_HitTrigger;
+
             StartingHealth = Health;
+        }
+
+        private void Gun_HitTrigger(int triggerId)
+        {
+            HitTrigger(triggerId);
         }
 
         void Update()

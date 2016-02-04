@@ -1,4 +1,5 @@
-﻿using System.Diagnostics;
+﻿using System;
+using System.Diagnostics;
 using Assets.Code.Entities.Player;
 using UnityEngine;
 using Debug = UnityEngine.Debug;
@@ -7,6 +8,8 @@ namespace Assets.Code.Entities.Weapons
 {
     public class Gun : MonoBehaviour
     {
+        public event Action<int> HitTrigger = id => { };
+
         public GameObject Explosion;
         public GameObject Pang;
         private Stopwatch _lastShot = null;
@@ -42,6 +45,17 @@ namespace Assets.Code.Entities.Weapons
 
             Destroy(explosion, 0.03f);
 
+            if (hit.collider.gameObject != null)
+            {
+                var triggerObject = hit.collider.gameObject;
+                if (triggerObject.name.StartsWith("trigger"))
+                {
+                    var triggerId = GetTriggerId(triggerObject.name);
+
+                    HitTrigger(triggerId);
+                }
+            }
+
             if (hit.collider.attachedRigidbody == null)
             {
                 //hit nothing of importance
@@ -59,6 +73,13 @@ namespace Assets.Code.Entities.Weapons
 
                 if (badguy.Health <= 0) Destroy(hitObject);
             }
+        }
+
+        private int GetTriggerId(string text)
+        {
+            var sTriggerId = text.Substring(8);
+
+            return int.Parse(sTriggerId);
         }
 
         private bool Ready()
