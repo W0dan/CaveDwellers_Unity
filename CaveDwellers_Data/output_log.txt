@@ -18,13 +18,13 @@ Platform assembly: C:\Users\Wodan-Ranger10\git\CaveDwellers_Unity\CaveDwellers_D
 Loading C:\Users\Wodan-Ranger10\git\CaveDwellers_Unity\CaveDwellers_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
 Platform assembly: C:\Users\Wodan-Ranger10\git\CaveDwellers_Unity\CaveDwellers_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
 Loading C:\Users\Wodan-Ranger10\git\CaveDwellers_Unity\CaveDwellers_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-- Completed reload, in  0.077 seconds
+- Completed reload, in  0.162 seconds
 Platform assembly: C:\Users\Wodan-Ranger10\git\CaveDwellers_Unity\CaveDwellers_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Users\Wodan-Ranger10\git\CaveDwellers_Unity\CaveDwellers_Data\Managed\System.dll (this message is harmless)
 desktop: 1920x1200 60Hz; virtual: 1920x1200 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 0.398027 ms
+UnloadTime: 0.400365 ms
 Setting up 1 worker threads for Enlighten.
-  Thread -> id: 2a4c -> priority: 1 
+  Thread -> id: 1a0c -> priority: 1 
