@@ -13,7 +13,9 @@ namespace Assets.Code
         private readonly Color _hiddenColor = Colors.FromArgb(255, 0, 0, 253);
 
         //background sprites
-        private readonly Color _floorColor = Colors.FromArgb(255, 255, 0, 0);
+        private readonly Color _grassColor = Colors.FromArgb(255, 255, 0, 0);
+        private readonly Color _grayTileColor = Colors.FromArgb(255, 255, 0, 1);
+        private readonly Color _grayTileWithGrassColor = Colors.FromArgb(255, 255, 0, 2);
         private readonly Color _wallColor = Colors.FromArgb(255, 0, 0, 255);
 
         //badguys
@@ -23,7 +25,9 @@ namespace Assets.Code
         //sprites
         public Transform BadGuy2 { get; set; }
         public Transform BadGuy1 { get; set; }
-        public GameObject FloorTile { get; set; }
+        public GameObject GrassTile { get; set; }
+        public GameObject GrayTile { get; set; }
+        public GameObject GrayTileWithGrass { get; set; }
         public GameObject WallTile { get; set; }
 
         public IEnumerable<TileInfo> GetLevelData(Texture2D levelTexture)
@@ -109,14 +113,13 @@ namespace Assets.Code
             var backgroundTileColor = tilePixels[0];
 
             if (backgroundTileColor == _wallColor)
-            {
                 return WallTile;
-            }
-
-            if (backgroundTileColor == _floorColor)
-            {
-                return FloorTile;
-            }
+            if (backgroundTileColor == _grassColor)
+                return GrassTile;
+            if (backgroundTileColor == _grayTileColor)
+                return GrayTile;
+            if (backgroundTileColor == _grayTileWithGrassColor)
+                return GrayTileWithGrass;
 
             return null;
         }

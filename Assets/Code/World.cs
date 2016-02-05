@@ -2,13 +2,12 @@
 using System.Linq;
 using Assets.Code;
 using UnityEngine;
-using Assets.Code.Common;
 using Assets.Code.Entities;
 using Assets.Code.Entities.Player;
 
 public class World : MonoBehaviour
 {
-    public GameObject FloorTile;
+    public List<GameObject> FloorTiles;
     public GameObject WallTile;
 
     public List<Texture2D> LevelTextures;
@@ -36,13 +35,15 @@ public class World : MonoBehaviour
 
     void Start()
     {
-        Player.HitTrigger += Player_HitTrigger;
+        Player.HitSomething += Player_HitSomething;
 
         _levelTexture = LevelTextures[_levelIndex];
 
         _levelParser = new LevelParser
         {
-            FloorTile = FloorTile,
+            GrassTile = FloorTiles[0],
+            GrayTile = FloorTiles[1],
+            GrayTileWithGrass = FloorTiles[2],
             WallTile = WallTile,
             BadGuy1 = BadGuy1,
             BadGuy2 = BadGuy2
@@ -51,9 +52,25 @@ public class World : MonoBehaviour
         LoadLevel(_currentLevelTiles, _currentLevelXOffset);
     }
 
-    private void Player_HitTrigger(int triggerId)
+    private void Player_HitSomething(GameObject obj)
     {
-        LoadLevel(_currentLevelTiles, _currentLevelXOffset, _currentLevelYOffset, triggerId);
+        if (obj.name.StartsWith("trigger"))
+        {
+            var triggerId = int.Parse(obj.name.Substring(8));
+
+            Destroy(obj);
+
+            LoadLevel(_currentLevelTiles, _currentLevelXOffset, _currentLevelYOffset, triggerId);
+        }
+
+        if (obj.tag == "Badguy")
+        {
+            var badguy = obj.GetComponent<Entity>();
+
+            badguy.TakeHealth(10);
+
+            if (badguy.Health <= 0) Destroy(obj);
+        }
     }
 
     void Update()
@@ -71,14 +88,14 @@ public class World : MonoBehaviour
 
             //finished, open exit ...
             Destroy(_keystone);
-            Instantiate(FloorTile, _keystoneLocation, Quaternion.identity);
+            Instantiate(FloorTiles[0], _keystoneLocation, Quaternion.identity); //todo: which floortile to show ?
 
             //... and draw new level
             _currentLevelXOffset += nextLevelLocation.X;
             _currentLevelYOffset += nextLevelLocation.Y;
 
             var newLevelTiles = _levelParser.GetLevelData(_levelTexture).ToList();
-            _currentLevelTiles = _currentLevelTiles
+            _currentLevelTiles = _currentLevelTiles //make sure that we keep hidden tiles, that can still be triggered !!
                 .Where(tile => tile.IsHidden)
                 .Select(tile =>
                 {
@@ -87,7 +104,7 @@ public class World : MonoBehaviour
                     return tile;
                 }).ToList();
             _currentLevelTiles.AddRange(newLevelTiles);
-            
+
             LoadLevel(_currentLevelTiles, _currentLevelXOffset, _currentLevelYOffset);
         }
     }

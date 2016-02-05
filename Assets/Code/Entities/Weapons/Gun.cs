@@ -7,7 +7,7 @@ namespace Assets.Code.Entities.Weapons
 {
     public class Gun : MonoBehaviour
     {
-        public event Action<int> HitTrigger = id => { };
+        public event Action<GameObject> HitSomething = obj => { };
 
         public GameObject Explosion;
         public GameObject Pang;
@@ -44,43 +44,16 @@ namespace Assets.Code.Entities.Weapons
 
             Destroy(explosion, 0.03f);
 
-            if (hit.collider.gameObject != null)
+            if (hit.collider.attachedRigidbody != null)
             {
-                var triggerObject = hit.collider.gameObject;
-                if (triggerObject.name.StartsWith("trigger"))
-                {
-                    var triggerId = GetTriggerId(triggerObject.name);
-
-                    Destroy(triggerObject);
-
-                    HitTrigger(triggerId);
-                }
-            }
-
-            if (hit.collider.attachedRigidbody == null)
-            {
-                //hit nothing of importance
+                HitSomething(hit.collider.attachedRigidbody.gameObject);
                 return;
             }
 
-            //but what did we hit ??
-            var hitObject = hit.collider.attachedRigidbody.gameObject;
-
-            if (hitObject.tag == "Badguy")
+            if (hit.collider.gameObject != null)
             {
-                var badguy = hitObject.GetComponent<Entity>();
-
-                badguy.TakeHealth(10);
-
-                if (badguy.Health <= 0) Destroy(hitObject);
+                HitSomething(hit.collider.gameObject);
             }
-        }
-
-        private int GetTriggerId(string text)
-        {
-            var sTriggerId = text.Substring(8);
-
-            return int.Parse(sTriggerId);
         }
 
         private bool Ready()

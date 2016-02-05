@@ -1,12 +1,13 @@
 ﻿using System;
 using Assets.Code.Entities.Weapons;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace Assets.Code.Entities.Player
 {
     public class Player : Entity
     {
-        public event Action<int> HitTrigger = id => { };
+        public event Action<GameObject> HitSomething = obj => { };
 
         public Gun Gun;
         public Sprite Sprite;
@@ -14,20 +15,43 @@ namespace Assets.Code.Entities.Player
         public SpriteRenderer SpriteRenderer;
         public Camera Camera;
 
+        public int Ammo;
+        public Text AmmoText;
+
+        private int _score;
+        public Text ScoreText;
+
         private bool _died;
 
         private float _rotationAngle;
 
         void Start()
         {
-            Gun.HitTrigger += Gun_HitTrigger;
+            Gun.HitSomething += Gun_HitSomething;
 
             StartingHealth = Health;
+            AmmoText.text = Ammo.ToString("0");
         }
 
-        private void Gun_HitTrigger(int triggerId)
+        private void Gun_HitSomething(GameObject obj)
         {
-            HitTrigger(triggerId);
+            HitSomething(obj);
+
+            if (obj.tag == "Badguy")
+            {
+                var badguy = obj.GetComponent<Entity>();
+
+                if (badguy.Health <= 0)
+                {
+                    _score++;
+                    ScoreText.text = _score.ToString("00000000");
+                }
+
+                //badguy.TakeHealth(10);
+
+                //if (badguy.Health <= 0) Destroy(obj);
+            }
+
         }
 
         void Update()
@@ -45,7 +69,12 @@ namespace Assets.Code.Entities.Player
 
             if (Input.GetKey(KeyCode.Space) || Input.GetMouseButtonDown(0))
             {
-                Gun.Shoot(playerTransform.position, _rotationAngle);
+                if (Ammo > 0)
+                {
+                    Ammo--;
+                    Gun.Shoot(playerTransform.position, _rotationAngle);
+                    AmmoText.text = Ammo.ToString("0");
+                }
             }
 
             CameraFollowsPlayer(playerTransform);
