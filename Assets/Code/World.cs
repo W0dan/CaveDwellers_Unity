@@ -11,20 +11,6 @@ public class World : MonoBehaviour
     public GameObject FloorTile;
     public GameObject WallTile;
 
-    ////special flags
-    //private readonly Color _spawnPointColor = Colors.FromArgb(255, 255, 255, 255);
-    //private readonly Color _keystoneColor = Colors.FromArgb(255, 0, 0, 255);
-    //private readonly Color _triggerColor = Colors.FromArgb(255, 0, 0, 254);
-    //private readonly Color _hiddenColor = Colors.FromArgb(255, 0, 0, 253);
-
-    ////background sprites
-    //private readonly Color _floorColor = Colors.FromArgb(255, 255, 0, 0);
-    //private readonly Color _wallColor = Colors.FromArgb(255, 0, 0, 255);
-
-    ////badguys
-    //private readonly Color _badGuy1Color = Colors.FromArgb(255, 255, 255, 0);
-    //private readonly Color _badGuy2Color = Colors.FromArgb(255, 255, 255, 1);
-
     public List<Texture2D> LevelTextures;
     private Texture2D _levelTexture;
     private int _levelIndex = 0;
@@ -42,9 +28,6 @@ public class World : MonoBehaviour
 
     private LevelParser _levelParser;
     private List<TileInfo> _currentLevelTiles;
-
-    //subject to change ... this construct would only allow for 1 trigger per level.
-    private GameObject _triggerStone;
 
     internal bool LevelFinished
     {
@@ -70,10 +53,6 @@ public class World : MonoBehaviour
 
     private void Player_HitTrigger(int triggerId)
     {
-       // var triggerTile = _currentLevelTiles.Single(tile => tile.IsTrigger && tile.TriggerId == triggerId);
-
-        Destroy(_triggerStone);
-
         LoadLevel(_currentLevelTiles, _currentLevelXOffset, _currentLevelYOffset, triggerId);
     }
 
@@ -87,7 +66,6 @@ public class World : MonoBehaviour
                 //no more levels
                 return;
             }
-            //var oldTextureWith = _levelTexture.width / 4;
             var nextLevelLocation = _currentLevelTiles.Single(tile => tile.IsKeystone).NextLevelLocation;
             _levelTexture = LevelTextures[_levelIndex];
 
@@ -98,7 +76,18 @@ public class World : MonoBehaviour
             //... and draw new level
             _currentLevelXOffset += nextLevelLocation.X;
             _currentLevelYOffset += nextLevelLocation.Y;
-            _currentLevelTiles = _levelParser.GetLevelData(_levelTexture).ToList();
+
+            var newLevelTiles = _levelParser.GetLevelData(_levelTexture).ToList();
+            _currentLevelTiles = _currentLevelTiles
+                .Where(tile => tile.IsHidden)
+                .Select(tile =>
+                {
+                    tile.X -= nextLevelLocation.X;
+                    tile.Y -= nextLevelLocation.Y;
+                    return tile;
+                }).ToList();
+            _currentLevelTiles.AddRange(newLevelTiles);
+            
             LoadLevel(_currentLevelTiles, _currentLevelXOffset, _currentLevelYOffset);
         }
     }
@@ -135,8 +124,8 @@ public class World : MonoBehaviour
             if (tileInfo.IsTrigger)
             {
                 var triggerLocation = new Vector3(tileInfo.X + xOffset, tileInfo.Y + yOffset);
-                _triggerStone = (GameObject)Instantiate(WallTile, triggerLocation, Quaternion.identity);
-                _triggerStone.name = "trigger_" + tileInfo.TriggerId;
+                var triggerStone = (GameObject)Instantiate(WallTile, triggerLocation, Quaternion.identity);
+                triggerStone.name = "trigger_" + tileInfo.TriggerId;
             }
         }
 

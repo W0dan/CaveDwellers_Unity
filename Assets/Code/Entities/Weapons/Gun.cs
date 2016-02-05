@@ -2,7 +2,6 @@
 using System.Diagnostics;
 using Assets.Code.Entities.Player;
 using UnityEngine;
-using Debug = UnityEngine.Debug;
 
 namespace Assets.Code.Entities.Weapons
 {
@@ -51,6 +50,8 @@ namespace Assets.Code.Entities.Weapons
                 if (triggerObject.name.StartsWith("trigger"))
                 {
                     var triggerId = GetTriggerId(triggerObject.name);
+
+                    Destroy(triggerObject);
 
                     HitTrigger(triggerId);
                 }
