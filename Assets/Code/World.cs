@@ -62,8 +62,6 @@ public class World : MonoBehaviour
 
     private void Player_HitSomethingWithGun(GameObject obj)
     {
-
-
         if (obj.name.StartsWith("trigger"))
         {
             var triggerId = int.Parse(obj.name.Substring(8));
@@ -78,27 +76,6 @@ public class World : MonoBehaviour
             var badguy = obj.GetComponent<Entity>();
 
             badguy.TakeHealth(10);
-
-            if (badguy.Health <= 0) //badguy is dood
-            {
-                Destroy(obj);
-
-                _dropCounter++;
-
-                if (_dropCounter == 5 || _dropCounter == 10)
-                {
-                    var dropLocation = new Vector3(obj.transform.position.x, obj.transform.position.y, -5);
-
-                    Instantiate(WeaponDrop, dropLocation, Quaternion.identity);
-                }
-                if (_dropCounter == 15)
-                {
-                    var dropLocation = new Vector3(obj.transform.position.x, obj.transform.position.y, -5);
-
-                    Instantiate(HealthDrop, dropLocation, Quaternion.identity);
-                    _dropCounter = 0;
-                }
-            }
         }
     }
 
@@ -185,8 +162,25 @@ public class World : MonoBehaviour
 
     private void BadguyDied(Entity badguy)
     {
+        var obj = badguy.gameObject;
+        Destroy(obj);
+
+        _dropCounter++;
+
+        if (_dropCounter == 5 || _dropCounter == 10)
+        {
+            var dropLocation = new Vector3(obj.transform.position.x, obj.transform.position.y, -5);
+
+            Instantiate(WeaponDrop, dropLocation, Quaternion.identity);
+        }
+        if (_dropCounter == 15)
+        {
+            var dropLocation = new Vector3(obj.transform.position.x, obj.transform.position.y, -5);
+
+            Instantiate(HealthDrop, dropLocation, Quaternion.identity);
+            _dropCounter = 0;
+        }
+
         _numberOfBadguysLeft--;
-
-
     }
 }

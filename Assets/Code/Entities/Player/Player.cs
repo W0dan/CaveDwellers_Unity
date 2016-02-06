@@ -29,17 +29,28 @@ namespace Assets.Code.Entities.Player
 
         void OnTriggerEnter2D(Collider2D triggerCollider)
         {
+            var pickedSomethingUp = false;
+
             if (triggerCollider.gameObject.tag == "HealthDrop")
             {
                 Health += 10;
                 if (Health > 100) Health = 100;
 
-                Destroy(triggerCollider.gameObject);
+                pickedSomethingUp = true;
             }
 
             if (triggerCollider.gameObject.tag == "AmmoDrop")
             {
                 UpdateAmmo(10);
+
+                pickedSomethingUp = true;
+            }
+
+            if (pickedSomethingUp)
+            {
+                var sound = GetComponent<AudioSource>();
+                sound.Play();
+
                 Destroy(triggerCollider.gameObject);
             }
         }
@@ -92,8 +103,10 @@ namespace Assets.Code.Entities.Player
             {
                 if (Ammo > 0)
                 {
-                    UpdateAmmo(-1);
-                    Gun.Shoot(playerTransform.position, _rotationAngle);
+                    if (Gun.Shoot(playerTransform.position, _rotationAngle))
+                    {
+                        UpdateAmmo(-1);
+                    }
                 }
             }
 

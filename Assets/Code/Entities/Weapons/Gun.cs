@@ -13,7 +13,11 @@ namespace Assets.Code.Entities.Weapons
         public GameObject Pang;
         private Stopwatch _lastShot = null;
 
-        public void Shoot(Vector3 playerPosition, float angle)
+        /// <summary>
+        /// the gun shoots a bullet when it's ready
+        /// </summary>
+        /// <returns>true when a shot is fired, false when it is not</returns>
+        public bool Shoot(Vector3 playerPosition, float angle)
         {
             var direction = MathHelpers.GetForwardVector(angle, 1);
 
@@ -22,8 +26,11 @@ namespace Assets.Code.Entities.Weapons
 
             if (!Ready())
             {
-                return;
+                return false;
             }
+
+            var sound = GetComponent<AudioSource>();
+            sound.Play();
 
             _lastShot = Stopwatch.StartNew();
 
@@ -36,7 +43,7 @@ namespace Assets.Code.Entities.Weapons
             const float shotDistance = 20;
 
             var hit = Physics2D.Raycast(ray.origin, ray.direction, shotDistance);
-            if (hit.collider == null) return; //nothing hit, so return
+            if (hit.collider == null) return true; //nothing hit, so return
 
             //we hit something, draw explosion @ impact location
             var vector2 = ray.origin + ray.direction * hit.distance;
@@ -47,20 +54,21 @@ namespace Assets.Code.Entities.Weapons
             if (hit.collider.attachedRigidbody != null)
             {
                 HitSomething(hit.collider.attachedRigidbody.gameObject);
-                return;
+                return true;
             }
 
             if (hit.collider.gameObject != null)
             {
                 HitSomething(hit.collider.gameObject);
             }
+            return true;
         }
 
         private bool Ready()
         {
             if (_lastShot == null) return true;
 
-            if (_lastShot.ElapsedMilliseconds > 100) return true;
+            if (_lastShot.ElapsedMilliseconds > 200) return true;
 
             return false;
         }
