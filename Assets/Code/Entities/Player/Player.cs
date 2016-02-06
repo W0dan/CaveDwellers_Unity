@@ -21,16 +21,42 @@ namespace Assets.Code.Entities.Player
         private int _score;
         public Text ScoreText;
 
+        public Text HealthText;
+
         private bool _died;
 
         private float _rotationAngle;
+
+        void OnTriggerEnter2D(Collider2D triggerCollider)
+        {
+            if (triggerCollider.gameObject.tag == "HealthDrop")
+            {
+                Health += 10;
+                if (Health > 100) Health = 100;
+
+                Destroy(triggerCollider.gameObject);
+            }
+
+            if (triggerCollider.gameObject.tag == "AmmoDrop")
+            {
+                UpdateAmmo(10);
+                Destroy(triggerCollider.gameObject);
+            }
+        }
+
+        private void UpdateAmmo(int ammo)
+        {
+            Ammo = Ammo + ammo;
+            AmmoText.text = Ammo.ToString("0");
+        }
 
         void Start()
         {
             Gun.HitSomething += Gun_HitSomething;
 
             StartingHealth = Health;
-            AmmoText.text = Ammo.ToString("0");
+
+            UpdateAmmo(0);
         }
 
         private void Gun_HitSomething(GameObject obj)
@@ -43,15 +69,10 @@ namespace Assets.Code.Entities.Player
 
                 if (badguy.Health <= 0)
                 {
-                    _score++;
+                    _score += 100;
                     ScoreText.text = _score.ToString("00000000");
                 }
-
-                //badguy.TakeHealth(10);
-
-                //if (badguy.Health <= 0) Destroy(obj);
             }
-
         }
 
         void Update()
@@ -71,9 +92,8 @@ namespace Assets.Code.Entities.Player
             {
                 if (Ammo > 0)
                 {
-                    Ammo--;
+                    UpdateAmmo(-1);
                     Gun.Shoot(playerTransform.position, _rotationAngle);
-                    AmmoText.text = Ammo.ToString("0");
                 }
             }
 
@@ -85,6 +105,12 @@ namespace Assets.Code.Entities.Player
             }
 
             RenderHealth();
+        }
+
+        protected override void RenderHealth(float healthPercent)
+        {
+            base.RenderHealth(healthPercent);
+            HealthText.text = healthPercent.ToString("0") + " %";
         }
 
         private void CameraFollowsPlayer(Transform playerTransform)

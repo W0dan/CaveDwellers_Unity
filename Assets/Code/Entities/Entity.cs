@@ -8,6 +8,7 @@ namespace Assets.Code.Entities
         public float SizeFactor = 1;
 
         public SpriteRenderer HealthRenderer;
+        public Sprite HealthFull;
         public Sprite Health75;
         public Sprite Health50;
         public Sprite HealthLow;
@@ -23,7 +24,7 @@ namespace Assets.Code.Entities
             return (float)Math.Round(Speed * Time.deltaTime, 2);
         }
 
-        public void TakeHealth(int damage)
+        public virtual void TakeHealth(int damage)
         {
             Health -= damage;
 
@@ -48,11 +49,16 @@ namespace Assets.Code.Entities
         {
             var healthPercent = GetHealthPercent();
 
-            //var lossyScale = HealthRenderer.transform.lossyScale;
+            RenderHealth(healthPercent);
+        }
 
-            //Debug.Log(lossyScale);
-
-            HealthRenderer.transform.localScale = new Vector3(CalculateHealthbarWidth(healthPercent), 2 / SizeFactor);
+        protected virtual void RenderHealth(float healthPercent)
+        {
+            HealthRenderer.transform.localScale = new Vector3(CalculateHealthbarWidth(healthPercent), 2/SizeFactor);
+            if (healthPercent > 75)
+            {
+                HealthRenderer.sprite = HealthFull;
+            }
             if (healthPercent <= 75 && healthPercent > 50)
             {
                 HealthRenderer.sprite = Health75;
@@ -66,6 +72,5 @@ namespace Assets.Code.Entities
                 HealthRenderer.sprite = HealthLow;
             }
         }
-
     }
 }

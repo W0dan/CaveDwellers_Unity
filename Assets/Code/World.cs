@@ -4,22 +4,28 @@ using Assets.Code;
 using UnityEngine;
 using Assets.Code.Entities;
 using Assets.Code.Entities.Player;
+using UnityEngine.UI;
 
 public class World : MonoBehaviour
 {
-    public List<GameObject> FloorTiles;
-    public GameObject WallTile;
-
-    public List<Texture2D> LevelTextures;
-    private Texture2D _levelTexture;
-    private int _levelIndex = 0;
-    private int _currentLevelXOffset = 0;
-    private int _currentLevelYOffset = 0;
 
     public Player Player;
 
     public Transform BadGuy1;
     public Transform BadGuy2;
+
+    public List<GameObject> FloorTiles;
+    public GameObject WallTile;
+
+    public GameObject HealthDrop;
+    public GameObject WeaponDrop;
+
+    public List<Texture2D> LevelTextures;
+
+    private Texture2D _levelTexture;
+    private int _levelIndex = 0;
+    private int _currentLevelXOffset = 0;
+    private int _currentLevelYOffset = 0;
 
     private int _numberOfBadguysLeft = 0;
     private Object _keystone;
@@ -28,6 +34,8 @@ public class World : MonoBehaviour
     private LevelParser _levelParser;
     private List<TileInfo> _currentLevelTiles;
 
+    private int _dropCounter = 0;
+
     internal bool LevelFinished
     {
         get { return _numberOfBadguysLeft <= 0; }
@@ -35,7 +43,7 @@ public class World : MonoBehaviour
 
     void Start()
     {
-        Player.HitSomething += Player_HitSomething;
+        Player.HitSomething += Player_HitSomethingWithGun;
 
         _levelTexture = LevelTextures[_levelIndex];
 
@@ -52,8 +60,10 @@ public class World : MonoBehaviour
         LoadLevel(_currentLevelTiles, _currentLevelXOffset);
     }
 
-    private void Player_HitSomething(GameObject obj)
+    private void Player_HitSomethingWithGun(GameObject obj)
     {
+
+
         if (obj.name.StartsWith("trigger"))
         {
             var triggerId = int.Parse(obj.name.Substring(8));
@@ -69,7 +79,26 @@ public class World : MonoBehaviour
 
             badguy.TakeHealth(10);
 
-            if (badguy.Health <= 0) Destroy(obj);
+            if (badguy.Health <= 0) //badguy is dood
+            {
+                Destroy(obj);
+
+                _dropCounter++;
+
+                if (_dropCounter == 5 || _dropCounter == 10)
+                {
+                    var dropLocation = new Vector3(obj.transform.position.x, obj.transform.position.y, -5);
+
+                    Instantiate(WeaponDrop, dropLocation, Quaternion.identity);
+                }
+                if (_dropCounter == 15)
+                {
+                    var dropLocation = new Vector3(obj.transform.position.x, obj.transform.position.y, -5);
+
+                    Instantiate(HealthDrop, dropLocation, Quaternion.identity);
+                    _dropCounter = 0;
+                }
+            }
         }
     }
 
@@ -88,7 +117,7 @@ public class World : MonoBehaviour
 
             //finished, open exit ...
             Destroy(_keystone);
-            Instantiate(FloorTiles[0], _keystoneLocation, Quaternion.identity); //todo: which floortile to show ?
+            Instantiate(FloorTiles[0], _keystoneLocation, Quaternion.identity);
 
             //... and draw new level
             _currentLevelXOffset += nextLevelLocation.X;
@@ -157,5 +186,7 @@ public class World : MonoBehaviour
     private void BadguyDied(Entity badguy)
     {
         _numberOfBadguysLeft--;
+
+
     }
 }
