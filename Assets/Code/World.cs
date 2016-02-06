@@ -165,6 +165,9 @@ public class World : MonoBehaviour
         var obj = badguy.gameObject;
         Destroy(obj);
 
+        var dieSound = badguy.GetComponent<AudioSource>();
+        dieSound.Play();
+
         _dropCounter++;
 
         if (_dropCounter == 5 || _dropCounter == 10)

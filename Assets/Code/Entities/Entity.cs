@@ -5,6 +5,8 @@ namespace Assets.Code.Entities
 {
     public abstract class Entity : MonoBehaviour
     {
+        public event Action<Entity> Died = entity => { };
+
         public float SizeFactor = 1;
 
         public SpriteRenderer HealthRenderer;
@@ -12,8 +14,6 @@ namespace Assets.Code.Entities
         public Sprite Health75;
         public Sprite Health50;
         public Sprite HealthLow;
-
-        public event Action<Entity> Died = entity => { };
 
         public float Speed;
         public int Health;
@@ -24,7 +24,7 @@ namespace Assets.Code.Entities
             return (float)Math.Round(Speed * Time.deltaTime, 2);
         }
 
-        public virtual void TakeHealth(int damage)
+        public void TakeHealth(int damage)
         {
             Health -= damage;
 
