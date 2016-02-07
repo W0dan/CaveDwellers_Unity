@@ -10,25 +10,34 @@ namespace Assets.Code
         private readonly Color _spawnPointColor = Colors.FromArgb(255, 255, 255, 255);
         private readonly Color _keystoneColor = Colors.FromArgb(255, 0, 0, 255);
         private readonly Color _triggerColor = Colors.FromArgb(255, 0, 0, 254);
-        private readonly Color _hiddenColor = Colors.FromArgb(255, 0, 0, 253);
 
         //background sprites
         private readonly Color _grassColor = Colors.FromArgb(255, 255, 0, 0);
         private readonly Color _grayTileColor = Colors.FromArgb(255, 255, 0, 1);
         private readonly Color _grayTileWithGrassColor = Colors.FromArgb(255, 255, 0, 2);
+        private readonly Color _grayTileWithGrassRightColor = Colors.FromArgb(255,255,0,3);
         private readonly Color _wallColor = Colors.FromArgb(255, 0, 0, 255);
 
         //badguys
         private readonly Color _badGuy1Color = Colors.FromArgb(255, 255, 255, 0);
         private readonly Color _badGuy2Color = Colors.FromArgb(255, 255, 255, 1);
 
+        //pickups
+        private readonly Color _ammoPickupColor = Colors.FromArgb(255, 255, 0, 255);
+        private readonly Color _healthPickupColor = Colors.FromArgb(255, 255, 1, 255);
+
         //sprites
         public Transform BadGuy2 { get; set; }
         public Transform BadGuy1 { get; set; }
+
+        public GameObject AmmoPickup { get; set; }
+        public GameObject HealthPickup { get; set; }
+
         public GameObject GrassTile { get; set; }
         public GameObject GrayTile { get; set; }
         public GameObject GrayTileWithGrass { get; set; }
         public GameObject WallTile { get; set; }
+        public GameObject GrayTileWithGrassRight { get; set; }
 
         public IEnumerable<TileInfo> GetLevelData(Texture2D levelTexture)
         {
@@ -49,14 +58,15 @@ namespace Assets.Code
                         X = x,
                         Y = y,
                         BackgroundTile = GetBackgroundSprite(tilePixels),
-                        Badguy = GetBadguyTransform(tilePixels)
+                        Badguy = GetBadguyTransform(tilePixels),
+                        Pickup = GetPickupTransform(tilePixels)
                     };
 
                     var specialFlagsColor = tilePixels[2];
                     if (specialFlagsColor == _keystoneColor)
                     {
                         tileInfo.IsKeystone = true;
-                        tileInfo.NextLevelLocation = CreatePointFromColor(tilePixels[3]);
+                        tileInfo.NextLevelLocation = CreatePointFromColor(tilePixels[4]);
                     }
                     if (specialFlagsColor == _spawnPointColor)
                     {
@@ -67,11 +77,7 @@ namespace Assets.Code
                         tileInfo.IsTrigger = true;
                         tileInfo.TriggerId = GetIntFromColor(tilePixels[4]);
                     }
-                    if (specialFlagsColor == _hiddenColor)
-                    {
-                        tileInfo.IsHidden = true;
-                        tileInfo.TriggeredById = GetIntFromColor(tilePixels[3]);
-                    }
+                    tileInfo.TriggeredById = GetIntFromColor(tilePixels[3]);
 
                     yield return tileInfo;
                 }
@@ -91,6 +97,22 @@ namespace Assets.Code
             }
 
             return tilePixels;
+        }
+
+        private GameObject GetPickupTransform(IList<Color> tilePixels)
+        {
+            var pickupColor = tilePixels[1];
+
+            if (pickupColor == _ammoPickupColor)
+            {
+                return AmmoPickup;
+            }
+            if (pickupColor == _healthPickupColor)
+            {
+                return HealthPickup;
+            }
+
+            return null;
         }
 
         private Transform GetBadguyTransform(IList<Color> tilePixels)
@@ -120,15 +142,17 @@ namespace Assets.Code
                 return GrayTile;
             if (backgroundTileColor == _grayTileWithGrassColor)
                 return GrayTileWithGrass;
+            if (backgroundTileColor == _grayTileWithGrassRightColor)
+                return GrayTileWithGrassRight;
 
             return null;
         }
 
         private int GetIntFromColor(Color tilePixel)
         {
-            var b = (int)(tilePixel.b*255);
-            var g = (int)(256 * tilePixel.g*255);
-            var r = (int)(256 * 256 * tilePixel.r*255);
+            var b = (int)(tilePixel.b * 255);
+            var g = (int)(256 * tilePixel.g * 255);
+            var r = (int)(256 * 256 * tilePixel.r * 255);
 
             return r + g + b;
         }

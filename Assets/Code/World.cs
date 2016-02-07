@@ -8,7 +8,6 @@ using UnityEngine.UI;
 
 public class World : MonoBehaviour
 {
-
     public Player Player;
 
     public Transform BadGuy1;
@@ -17,8 +16,8 @@ public class World : MonoBehaviour
     public List<GameObject> FloorTiles;
     public GameObject WallTile;
 
-    public GameObject HealthDrop;
-    public GameObject WeaponDrop;
+    public GameObject HealthPickup;
+    public GameObject AmmoPickup;
 
     public List<Texture2D> LevelTextures;
 
@@ -33,6 +32,8 @@ public class World : MonoBehaviour
 
     private LevelParser _levelParser;
     private List<TileInfo> _currentLevelTiles;
+
+    private readonly List<int> _discoveredTriggerIds = new List<int> { 0 };
 
     private int _dropCounter = 0;
 
@@ -52,9 +53,12 @@ public class World : MonoBehaviour
             GrassTile = FloorTiles[0],
             GrayTile = FloorTiles[1],
             GrayTileWithGrass = FloorTiles[2],
+            GrayTileWithGrassRight = FloorTiles[3],
             WallTile = WallTile,
             BadGuy1 = BadGuy1,
-            BadGuy2 = BadGuy2
+            BadGuy2 = BadGuy2,
+            AmmoPickup = AmmoPickup,
+            HealthPickup = HealthPickup,
         };
         _currentLevelTiles = _levelParser.GetLevelData(_levelTexture).ToList();
         LoadLevel(_currentLevelTiles, _currentLevelXOffset);
@@ -68,6 +72,7 @@ public class World : MonoBehaviour
 
             Destroy(obj);
 
+            _discoveredTriggerIds.Add(triggerId);
             LoadLevel(_currentLevelTiles, _currentLevelXOffset, _currentLevelYOffset, triggerId);
         }
 
@@ -102,7 +107,7 @@ public class World : MonoBehaviour
 
             var newLevelTiles = _levelParser.GetLevelData(_levelTexture).ToList();
             _currentLevelTiles = _currentLevelTiles //make sure that we keep hidden tiles, that can still be triggered !!
-                .Where(tile => tile.IsHidden)
+                .Where(tile => _discoveredTriggerIds.All(id => tile.TriggeredById != id))
                 .Select(tile =>
                 {
                     tile.X -= nextLevelLocation.X;
@@ -128,6 +133,11 @@ public class World : MonoBehaviour
                 badguy.Died += BadguyDied;
 
                 _numberOfBadguysLeft++;
+            }
+
+            if (tileInfo.Pickup != null)
+            {
+                Instantiate(tileInfo.Pickup, new Vector3(tileInfo.X + xOffset, tileInfo.Y + yOffset), Quaternion.identity);
             }
 
             //spawn point
@@ -171,13 +181,13 @@ public class World : MonoBehaviour
         {
             var dropLocation = new Vector3(obj.transform.position.x, obj.transform.position.y, -5);
 
-            Instantiate(WeaponDrop, dropLocation, Quaternion.identity);
+            Instantiate(AmmoPickup, dropLocation, Quaternion.identity);
         }
         if (_dropCounter == 15)
         {
             var dropLocation = new Vector3(obj.transform.position.x, obj.transform.position.y, -5);
 
-            Instantiate(HealthDrop, dropLocation, Quaternion.identity);
+            Instantiate(HealthPickup, dropLocation, Quaternion.identity);
             _dropCounter = 0;
         }
 
