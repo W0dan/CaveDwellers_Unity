@@ -1,0 +1,44 @@
+Initialize engine version: 5.3.2f1 (e87ab445ead0)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: AMD Radeon HD 7900 Series (ID=0x679a)
+    Vendor:   ATI
+    VRAM:     3054 MB
+Default GameObject Tag: Player already registered
+ 
+(Filename:  Line: 88)
+
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Wodan-Ranger10\git\CaveDwellers_Unity\CaveDwellers1_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Wodan-Ranger10\git\CaveDwellers_Unity\CaveDwellers1_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Wodan-Ranger10\git\CaveDwellers_Unity\CaveDwellers1_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Wodan-Ranger10\git\CaveDwellers_Unity\CaveDwellers1_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Wodan-Ranger10\git\CaveDwellers_Unity\CaveDwellers1_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Wodan-Ranger10\git\CaveDwellers_Unity\CaveDwellers1_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Wodan-Ranger10\git\CaveDwellers_Unity\CaveDwellers1_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Wodan-Ranger10\git\CaveDwellers_Unity\CaveDwellers1_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.078 seconds
+Platform assembly: C:\Users\Wodan-Ranger10\git\CaveDwellers_Unity\CaveDwellers1_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Wodan-Ranger10\git\CaveDwellers_Unity\CaveDwellers1_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1200 60Hz; virtual: 1920x1200 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 0.417314 ms
+Start game button clicked
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 3.404563 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 428.
+Total: 0.173296 ms (FindLiveObjects: 0.015488 ms CreateObjectMapping: 0.011689 ms MarkObjects: 0.142611 ms  DeleteObjects: 0.003214 ms)
+
+Exit button clicked
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 2cc4 -> priority: 1 

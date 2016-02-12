@@ -4,7 +4,6 @@ using Assets.Code;
 using UnityEngine;
 using Assets.Code.Entities;
 using Assets.Code.Entities.Player;
-using UnityEngine.UI;
 
 public class World : MonoBehaviour
 {
@@ -18,6 +17,8 @@ public class World : MonoBehaviour
 
     public GameObject HealthPickup;
     public GameObject AmmoPickup;
+
+    public Canvas GameMenu;
 
     public List<Texture2D> LevelTextures;
 
@@ -44,6 +45,10 @@ public class World : MonoBehaviour
 
     void Start()
     {
+        var cg = GameMenu.GetComponent<CanvasGroup>();
+        cg.alpha = 0x00;
+        cg.blocksRaycasts = false;
+
         Player.HitSomething += Player_HitSomethingWithGun;
 
         _levelTexture = LevelTextures[_levelIndex];
@@ -86,6 +91,18 @@ public class World : MonoBehaviour
 
     void Update()
     {
+        if (Input.GetKey(KeyCode.Escape))
+        {
+            Time.timeScale = 0;
+            //var gameMenu = GameObject.FindGameObjectWithTag("GameMenu");
+
+            var cg = GameMenu.GetComponent<CanvasGroup>();
+            cg.alpha = 0xFF;
+            cg.blocksRaycasts = true;
+
+            //Instantiate(GameMenu);
+        }
+
         if (_numberOfBadguysLeft <= 0)
         {
             _levelIndex++;
