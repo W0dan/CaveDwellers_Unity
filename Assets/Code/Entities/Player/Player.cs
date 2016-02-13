@@ -88,6 +88,11 @@ namespace Assets.Code.Entities.Player
 
         void Update()
         {
+            if (MenuManager.IsPaused)
+            {
+                return;
+            }
+
             if (_died)
             {
                 return;

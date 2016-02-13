@@ -91,16 +91,14 @@ public class World : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKey(KeyCode.Escape))
+        var gameMenuCanvasGroup = GameMenu.GetComponent<CanvasGroup>();
+        if (Input.GetKey(KeyCode.Escape) && !MenuManager.IsPaused && MenuManager.IsHidden)
         {
-            Time.timeScale = 0;
-            //var gameMenu = GameObject.FindGameObjectWithTag("GameMenu");
-
-            var cg = GameMenu.GetComponent<CanvasGroup>();
-            cg.alpha = 0xFF;
-            cg.blocksRaycasts = true;
-
-            //Instantiate(GameMenu);
+            MenuManager.ShowMenu(gameMenuCanvasGroup);
+        }
+        else if (Input.GetKey(KeyCode.Escape) && MenuManager.IsShown)
+        {
+            MenuManager.ResumeGame(gameMenuCanvasGroup);
         }
 
         if (_numberOfBadguysLeft <= 0)
