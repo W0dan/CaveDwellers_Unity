@@ -1,6 +1,4 @@
-﻿using System;
-using System.Diagnostics;
-using System.Net.NetworkInformation;
+﻿using System.Diagnostics;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -12,6 +10,7 @@ public class MenuManager : MonoBehaviour
     private static Stopwatch _timeMenuIsHidden = new Stopwatch();
 
     public static bool IsPaused;
+    private static string _currentStage;
 
     public static bool IsShown
     {
@@ -32,7 +31,8 @@ public class MenuManager : MonoBehaviour
 
     public void StartGame()
     {
-        SceneManager.LoadScene("Stage1");
+        _currentStage = "Stage1";
+        SceneManager.LoadScene(_currentStage);
 
         ResumeGame();
     }
@@ -45,6 +45,29 @@ public class MenuManager : MonoBehaviour
     public void ExitGame()
     {
         Application.Quit();
+    }
+
+    public void NextStage()
+    {
+        switch (_currentStage)
+        {
+            case "Stage1":
+                _currentStage = "Stage2";
+                break;
+            case "Stage2":
+                _currentStage = "Stage3";
+                break;
+            case "Stage3":
+                _currentStage = "Stage4";
+                break;
+            case "Stage4":
+                _currentStage = "Stage5";
+                break;
+            case "Stage5":
+                _currentStage = "TheEnd";
+                break;
+        }
+        SceneManager.LoadScene(_currentStage);
     }
 
     internal static void ResumeGame(CanvasGroup gameMenu)
@@ -72,5 +95,14 @@ public class MenuManager : MonoBehaviour
         IsPaused = true;
         _timeMenuIsDisplayed = new Stopwatch();
         _timeMenuIsDisplayed.Start();
+    }
+
+    public static void ShowStageComplete(Canvas stageCompleteCanvas)
+    {
+        var stageComplete = stageCompleteCanvas.GetComponent<CanvasGroup>();
+
+        Time.timeScale = 0;
+        stageComplete.alpha = 0xFF;
+        stageComplete.blocksRaycasts = true;
     }
 }

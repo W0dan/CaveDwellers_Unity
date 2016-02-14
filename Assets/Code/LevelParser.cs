@@ -17,6 +17,7 @@ namespace Assets.Code
         private readonly Color _grayTileWithGrassColor = Colors.FromArgb(255, 255, 0, 2);
         private readonly Color _grayTileWithGrassRightColor = Colors.FromArgb(255,255,0,3);
         private readonly Color _wallColor = Colors.FromArgb(255, 0, 0, 255);
+        private readonly Color _fountainTileColor = Colors.FromArgb(255,0,1,255);
 
         //badguys
         private readonly Color _badGuy1Color = Colors.FromArgb(255, 255, 255, 0);
@@ -38,6 +39,7 @@ namespace Assets.Code
         public GameObject GrayTileWithGrass { get; set; }
         public GameObject WallTile { get; set; }
         public GameObject GrayTileWithGrassRight { get; set; }
+        public GameObject FountainTile { get; set; }
 
         public IEnumerable<TileInfo> GetLevelData(Texture2D levelTexture)
         {
@@ -59,7 +61,8 @@ namespace Assets.Code
                         Y = y,
                         BackgroundTile = GetBackgroundSprite(tilePixels),
                         Badguy = GetBadguyTransform(tilePixels),
-                        Pickup = GetPickupTransform(tilePixels)
+                        Pickup = GetPickupTransform(tilePixels),
+                        Ornament = GetOrnamentTransform(tilePixels)
                     };
 
                     var specialFlagsColor = tilePixels[2];
@@ -126,6 +129,15 @@ namespace Assets.Code
             {
                 return BadGuy2;
             }
+
+            return null;
+        }
+
+        private GameObject GetOrnamentTransform(IList<Color> tilePixels)
+        {
+            var ornamentColor = tilePixels[1];
+            if (ornamentColor == _fountainTileColor)
+                return FountainTile;
 
             return null;
         }

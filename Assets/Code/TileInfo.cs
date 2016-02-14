@@ -21,5 +21,6 @@ namespace Assets.Code
         public GameObject Pickup { get; set; }
 
         public Point NextLevelLocation { get; set; }
+        public GameObject Ornament { get; set; }
     }
 }

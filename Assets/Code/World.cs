@@ -15,10 +15,13 @@ public class World : MonoBehaviour
     public List<GameObject> FloorTiles;
     public GameObject WallTile;
 
+    public List<GameObject> WallTiles;
+
     public GameObject HealthPickup;
     public GameObject AmmoPickup;
 
     public Canvas GameMenu;
+    public Canvas StageCompleteCanvas;
 
     public List<Texture2D> LevelTextures;
 
@@ -45,9 +48,18 @@ public class World : MonoBehaviour
 
     void Start()
     {
-        var cg = GameMenu.GetComponent<CanvasGroup>();
-        cg.alpha = 0x00;
-        cg.blocksRaycasts = false;
+        //todo: put this in MenuManager ?//
+        Time.timeScale = 1;
+
+        var stageComplete = StageCompleteCanvas.GetComponent<CanvasGroup>();
+
+        stageComplete.alpha = 0x00;
+        stageComplete.blocksRaycasts = false;
+
+        var gameMenu = GameMenu.GetComponent<CanvasGroup>();
+        gameMenu.alpha = 0x00;
+        gameMenu.blocksRaycasts = false;
+        //end todo//
 
         Player.HitSomething += Player_HitSomethingWithGun;
 
@@ -59,7 +71,8 @@ public class World : MonoBehaviour
             GrayTile = FloorTiles[1],
             GrayTileWithGrass = FloorTiles[2],
             GrayTileWithGrassRight = FloorTiles[3],
-            WallTile = WallTile,
+            WallTile = WallTiles[0],
+            FountainTile = WallTiles[1],
             BadGuy1 = BadGuy1,
             BadGuy2 = BadGuy2,
             AmmoPickup = AmmoPickup,
@@ -106,7 +119,8 @@ public class World : MonoBehaviour
             _levelIndex++;
             if (!(LevelTextures.Count > _levelIndex))
             {
-                //no more levels
+                MenuManager.ShowStageComplete(StageCompleteCanvas);
+
                 return;
             }
             var nextLevelLocation = _currentLevelTiles.Single(tile => tile.IsKeystone).NextLevelLocation;
@@ -142,7 +156,7 @@ public class World : MonoBehaviour
             //badguys
             if (tileInfo.Badguy != null)
             {
-                var obj = (Transform)Instantiate(tileInfo.Badguy, new Vector3(tileInfo.X + xOffset, tileInfo.Y + yOffset), Quaternion.identity);
+                var obj = (Transform)Instantiate(tileInfo.Badguy, new Vector3(tileInfo.X + xOffset, tileInfo.Y + yOffset, 51), Quaternion.identity);
                 var badguy = obj.GetComponent<Entity>();
 
                 badguy.Died += BadguyDied;
@@ -150,9 +164,16 @@ public class World : MonoBehaviour
                 _numberOfBadguysLeft++;
             }
 
+            //pickups
             if (tileInfo.Pickup != null)
             {
-                Instantiate(tileInfo.Pickup, new Vector3(tileInfo.X + xOffset, tileInfo.Y + yOffset), Quaternion.identity);
+                Instantiate(tileInfo.Pickup, new Vector3(tileInfo.X + xOffset, tileInfo.Y + yOffset, 50), Quaternion.identity);
+            }
+
+            //ornaments
+            if (tileInfo.Ornament != null)
+            {
+                Instantiate(tileInfo.Ornament, new Vector3(tileInfo.X + xOffset, tileInfo.Y + yOffset, 50), Quaternion.identity);
             }
 
             //spawn point
@@ -164,7 +185,7 @@ public class World : MonoBehaviour
             //key stone
             if (tileInfo.IsKeystone)
             {
-                _keystoneLocation = new Vector3(tileInfo.X + xOffset, tileInfo.Y + yOffset);
+                _keystoneLocation = new Vector3(tileInfo.X + xOffset, tileInfo.Y + yOffset, 50);
                 _keystone = Instantiate(WallTile, _keystoneLocation, Quaternion.identity);
             }
 
@@ -175,14 +196,17 @@ public class World : MonoBehaviour
                 var triggerStone = (GameObject)Instantiate(WallTile, triggerLocation, Quaternion.identity);
                 triggerStone.name = "trigger_" + tileInfo.TriggerId;
             }
+
+            if (tileInfo.BackgroundTile != null && !tileInfo.IsKeystone)
+                Instantiate(tileInfo.BackgroundTile, new Vector3(tileInfo.X + xOffset, tileInfo.Y + yOffset, 0), Quaternion.identity);
         }
 
-        //floor and walls
-        foreach (var tileInfo in tiles.Where(tile => tile.BackgroundTile != null && tile.TriggeredById == triggerId))
-        {
-            if (!tileInfo.IsKeystone)
-                Instantiate(tileInfo.BackgroundTile, new Vector3(tileInfo.X + xOffset, tileInfo.Y + yOffset), Quaternion.identity);
-        }
+        ////floor and walls
+        //foreach (var tileInfo in tiles.Where(tile => tile.BackgroundTile != null && tile.TriggeredById == triggerId))
+        //{
+        //    if (!tileInfo.IsKeystone)
+        //        Instantiate(tileInfo.BackgroundTile, new Vector3(tileInfo.X + xOffset, tileInfo.Y + yOffset, 0), Quaternion.identity);
+        //}
     }
 
     private void BadguyDied(Entity badguy)
