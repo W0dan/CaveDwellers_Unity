@@ -11,13 +11,16 @@ namespace Assets.Code
         private readonly Color _keystoneColor = Colors.FromArgb(255, 0, 0, 255);
         private readonly Color _triggerColor = Colors.FromArgb(255, 0, 0, 254);
 
-        //background sprites
+        //backgrounds
         private readonly Color _grassColor = Colors.FromArgb(255, 255, 0, 0);
         private readonly Color _grayTileColor = Colors.FromArgb(255, 255, 0, 1);
         private readonly Color _grayTileWithGrassColor = Colors.FromArgb(255, 255, 0, 2);
-        private readonly Color _grayTileWithGrassRightColor = Colors.FromArgb(255,255,0,3);
+        private readonly Color _grayTileWithGrassRightColor = Colors.FromArgb(255, 255, 0, 3);
+        private readonly Color _grayTileWithGrassTopColor = Colors.FromArgb(255, 255, 0, 4);
+        private readonly Color _grayTileWithGrassLeftColor = Colors.FromArgb(255, 255, 0, 5);
         private readonly Color _wallColor = Colors.FromArgb(255, 0, 0, 255);
-        private readonly Color _fountainTileColor = Colors.FromArgb(255,0,1,255);
+        private readonly Color _fountainTileColor = Colors.FromArgb(255, 0, 1, 255);
+        private readonly Color _knightStatueTileColor = Colors.FromArgb(255, 0, 2, 255);
 
         //badguys
         private readonly Color _badGuy1Color = Colors.FromArgb(255, 255, 255, 0);
@@ -37,9 +40,12 @@ namespace Assets.Code
         public GameObject GrassTile { get; set; }
         public GameObject GrayTile { get; set; }
         public GameObject GrayTileWithGrass { get; set; }
-        public GameObject WallTile { get; set; }
         public GameObject GrayTileWithGrassRight { get; set; }
+        public GameObject GrayTileWithGrassTop { get; set; }
+        public GameObject GrayTileWithGrassLeft { get; set; }
+        public GameObject WallTile { get; set; }
         public GameObject FountainTile { get; set; }
+        public GameObject KnightStatueTile { get; set; }
 
         public IEnumerable<TileInfo> GetLevelData(Texture2D levelTexture)
         {
@@ -138,6 +144,8 @@ namespace Assets.Code
             var ornamentColor = tilePixels[1];
             if (ornamentColor == _fountainTileColor)
                 return FountainTile;
+            if (ornamentColor == _knightStatueTileColor)
+                return KnightStatueTile;
 
             return null;
         }
@@ -156,6 +164,10 @@ namespace Assets.Code
                 return GrayTileWithGrass;
             if (backgroundTileColor == _grayTileWithGrassRightColor)
                 return GrayTileWithGrassRight;
+            if (backgroundTileColor == _grayTileWithGrassTopColor)
+                return GrayTileWithGrassTop;
+            if (backgroundTileColor == _grayTileWithGrassLeftColor)
+                return GrayTileWithGrassLeft;
 
             return null;
         }

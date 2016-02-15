@@ -13,8 +13,6 @@ public class World : MonoBehaviour
     public Transform BadGuy2;
 
     public List<GameObject> FloorTiles;
-    public GameObject WallTile;
-
     public List<GameObject> WallTiles;
 
     public GameObject HealthPickup;
@@ -71,8 +69,11 @@ public class World : MonoBehaviour
             GrayTile = FloorTiles[1],
             GrayTileWithGrass = FloorTiles[2],
             GrayTileWithGrassRight = FloorTiles[3],
+            GrayTileWithGrassTop = FloorTiles[4],
+            GrayTileWithGrassLeft = FloorTiles[5],
             WallTile = WallTiles[0],
             FountainTile = WallTiles[1],
+            KnightStatueTile = WallTiles[2],
             BadGuy1 = BadGuy1,
             BadGuy2 = BadGuy2,
             AmmoPickup = AmmoPickup,
@@ -186,14 +187,14 @@ public class World : MonoBehaviour
             if (tileInfo.IsKeystone)
             {
                 _keystoneLocation = new Vector3(tileInfo.X + xOffset, tileInfo.Y + yOffset, 50);
-                _keystone = Instantiate(WallTile, _keystoneLocation, Quaternion.identity);
+                _keystone = Instantiate(WallTiles[0], _keystoneLocation, Quaternion.identity);
             }
 
             //trigger
             if (tileInfo.IsTrigger)
             {
                 var triggerLocation = new Vector3(tileInfo.X + xOffset, tileInfo.Y + yOffset);
-                var triggerStone = (GameObject)Instantiate(WallTile, triggerLocation, Quaternion.identity);
+                var triggerStone = (GameObject)Instantiate(WallTiles[0], triggerLocation, Quaternion.identity);
                 triggerStone.name = "trigger_" + tileInfo.TriggerId;
             }
 

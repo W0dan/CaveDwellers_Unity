@@ -67,6 +67,9 @@ public class MenuManager : MonoBehaviour
                 _currentStage = "TheEnd";
                 break;
         }
+        Time.timeScale = 1;
+        IsPaused = false;
+
         SceneManager.LoadScene(_currentStage);
     }
 
@@ -104,5 +107,7 @@ public class MenuManager : MonoBehaviour
         Time.timeScale = 0;
         stageComplete.alpha = 0xFF;
         stageComplete.blocksRaycasts = true;
+
+        IsPaused = true;
     }
 }
