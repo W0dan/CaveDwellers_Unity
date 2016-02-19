@@ -72,6 +72,7 @@ public class World : MonoBehaviour
             GrayTileWithGrassTop = FloorTiles[4],
             GrayTileWithGrassLeft = FloorTiles[5],
             WallTile = WallTiles[0],
+            //BreakableWallTile = WallTiles[3],
             FountainTile = WallTiles[1],
             KnightStatueTile = WallTiles[2],
             BadGuy1 = BadGuy1,
@@ -194,7 +195,7 @@ public class World : MonoBehaviour
             if (tileInfo.IsTrigger)
             {
                 var triggerLocation = new Vector3(tileInfo.X + xOffset, tileInfo.Y + yOffset);
-                var triggerStone = (GameObject)Instantiate(WallTiles[0], triggerLocation, Quaternion.identity);
+                var triggerStone = (GameObject)Instantiate(WallTiles[3], triggerLocation, Quaternion.identity);
                 triggerStone.name = "trigger_" + tileInfo.TriggerId;
             }
 
