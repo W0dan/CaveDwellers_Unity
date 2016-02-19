@@ -11,6 +11,7 @@ public class MenuManager : MonoBehaviour
 
     public static bool IsPaused;
     private static string _currentStage;
+    private static CanvasGroup _stageComplete;
 
     public static bool IsShown
     {
@@ -68,7 +69,9 @@ public class MenuManager : MonoBehaviour
                 break;
         }
         Time.timeScale = 1;
-        IsPaused = false;
+        //IsPaused = false;
+        _stageComplete.alpha = 0x00;
+        _stageComplete.blocksRaycasts = false;
 
         SceneManager.LoadScene(_currentStage);
     }
@@ -102,12 +105,12 @@ public class MenuManager : MonoBehaviour
 
     public static void ShowStageComplete(Canvas stageCompleteCanvas)
     {
-        var stageComplete = stageCompleteCanvas.GetComponent<CanvasGroup>();
+        _stageComplete = stageCompleteCanvas.GetComponent<CanvasGroup>();
 
         Time.timeScale = 0;
-        stageComplete.alpha = 0xFF;
-        stageComplete.blocksRaycasts = true;
+        _stageComplete.alpha = 0xFF;
+        _stageComplete.blocksRaycasts = true;
 
-        IsPaused = true;
+        //IsPaused = true;
     }
 }
