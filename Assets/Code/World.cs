@@ -17,6 +17,7 @@ public class World : MonoBehaviour
 
     public GameObject HealthPickup;
     public GameObject AmmoPickup;
+    public GameObject Switch;
 
     public Canvas GameMenu;
     public Canvas StageCompleteCanvas;
@@ -79,6 +80,7 @@ public class World : MonoBehaviour
             BadGuy2 = BadGuy2,
             AmmoPickup = AmmoPickup,
             HealthPickup = HealthPickup,
+            Switch = Switch,
         };
         _currentLevelTiles = _levelParser.GetLevelData(_levelTexture).ToList();
         LoadLevel(_currentLevelTiles, _currentLevelXOffset);
@@ -167,9 +169,9 @@ public class World : MonoBehaviour
             }
 
             //pickups
-            if (tileInfo.Pickup != null)
+            if (tileInfo.Prop != null)
             {
-                Instantiate(tileInfo.Pickup, new Vector3(tileInfo.X + xOffset, tileInfo.Y + yOffset, 50), Quaternion.identity);
+                Instantiate(tileInfo.Prop, new Vector3(tileInfo.X + xOffset, tileInfo.Y + yOffset, 50), Quaternion.identity);
             }
 
             //ornaments

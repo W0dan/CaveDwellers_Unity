@@ -18,7 +18,7 @@ namespace Assets.Code
 
         public GameObject BackgroundTile { get; set; }
         public Transform Badguy { get; set; }
-        public GameObject Pickup { get; set; }
+        public GameObject Prop { get; set; }
 
         public Point NextLevelLocation { get; set; }
         public GameObject Ornament { get; set; }

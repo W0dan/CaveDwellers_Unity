@@ -1,5 +1,6 @@
 ﻿using System;
 using Assets.Code.Entities.Weapons;
+using Assets.Code.Objects;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -27,6 +28,8 @@ namespace Assets.Code.Entities.Player
 
         private float _rotationAngle;
 
+        private GameObject _actionableGameObject;
+
         void OnTriggerEnter2D(Collider2D triggerCollider)
         {
             var pickedSomethingUp = false;
@@ -38,12 +41,14 @@ namespace Assets.Code.Entities.Player
 
                 pickedSomethingUp = true;
             }
-
-            if (triggerCollider.gameObject.tag == "AmmoDrop")
+            else if (triggerCollider.gameObject.tag == "AmmoDrop")
             {
                 UpdateAmmo(10);
 
                 pickedSomethingUp = true;
+            } else if (triggerCollider.gameObject.tag == "Actionable")
+            {
+                _actionableGameObject = triggerCollider.gameObject;
             }
 
             if (pickedSomethingUp)
@@ -52,6 +57,14 @@ namespace Assets.Code.Entities.Player
                 sound.Play();
 
                 Destroy(triggerCollider.gameObject);
+            }
+        }
+
+        void OnTriggerExit2D(Collider2D triggerCollider)
+        {
+            if (triggerCollider.gameObject == _actionableGameObject)
+            {
+                _actionableGameObject = null;
             }
         }
 
@@ -113,6 +126,13 @@ namespace Assets.Code.Entities.Player
                         UpdateAmmo(-1);
                     }
                 }
+            }
+
+            if (_actionableGameObject != null && Input.GetKey(KeyCode.E))
+            {
+                var actionable = _actionableGameObject.GetComponentInParent<Switch>();
+
+                actionable.ExecuteAction();
             }
 
             CameraFollowsPlayer(playerTransform);

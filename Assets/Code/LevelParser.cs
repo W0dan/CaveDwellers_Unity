@@ -26,9 +26,10 @@ namespace Assets.Code
         private readonly Color _badGuy1Color = Colors.FromArgb(255, 255, 255, 0);
         private readonly Color _badGuy2Color = Colors.FromArgb(255, 255, 255, 1);
 
-        //pickups
+        //props
         private readonly Color _ammoPickupColor = Colors.FromArgb(255, 255, 0, 255);
         private readonly Color _healthPickupColor = Colors.FromArgb(255, 255, 1, 255);
+        private readonly Color _switchColor = Colors.FromArgb(255, 255, 0, 0);
 
         //sprites
         public Transform BadGuy2 { get; set; }
@@ -46,6 +47,7 @@ namespace Assets.Code
         public GameObject WallTile { get; set; }
         public GameObject FountainTile { get; set; }
         public GameObject KnightStatueTile { get; set; }
+        public GameObject Switch { get; set; }
 
         public IEnumerable<TileInfo> GetLevelData(Texture2D levelTexture)
         {
@@ -67,7 +69,7 @@ namespace Assets.Code
                         Y = y,
                         BackgroundTile = GetBackgroundSprite(tilePixels),
                         Badguy = GetBadguyTransform(tilePixels),
-                        Pickup = GetPickupTransform(tilePixels),
+                        Prop = GetPropTransform(tilePixels),
                         Ornament = GetOrnamentTransform(tilePixels)
                     };
 
@@ -108,17 +110,21 @@ namespace Assets.Code
             return tilePixels;
         }
 
-        private GameObject GetPickupTransform(IList<Color> tilePixels)
+        private GameObject GetPropTransform(IList<Color> tilePixels)
         {
-            var pickupColor = tilePixels[1];
+            var propColor = tilePixels[1];
 
-            if (pickupColor == _ammoPickupColor)
+            if (propColor == _ammoPickupColor)
             {
                 return AmmoPickup;
             }
-            if (pickupColor == _healthPickupColor)
+            if (propColor == _healthPickupColor)
             {
                 return HealthPickup;
+            }
+            if (propColor == _switchColor)
+            {
+                return Switch;
             }
 
             return null;
